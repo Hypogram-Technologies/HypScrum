@@ -1,0 +1,36 @@
+O que é o Product Backlog no Scrum?
+
+a) Uma lista de itens que foram concluídos pela equipe de desenvolvimento.
+b) Uma lista priorizada de tudo o que precisa ser feito no produto.
+c) Um documento que descreve o papel do Scrum Master.
+d) Um plano detalhado de todas as Sprints futuras.
+Quem é o responsável por gerenciar o Product Backlog?
+
+a) Scrum Master
+b) Time de Desenvolvimento
+c) Product Owner
+d) Stakeholders
+Qual dos seguintes é um dos artefatos do Scrum?
+
+a) Sprint Review
+b) Product Backlog
+c) Planning Poker
+d) Roadmap
+O que é o Sprint Backlog?
+
+a) Uma lista de melhorias sugeridas pelos stakeholders.
+b) O plano detalhado para o desenvolvimento do produto a longo prazo.
+c) A lista de itens selecionados do Product Backlog que serão concluídos na Sprint.
+d) Um conjunto de tarefas técnicas que não estão relacionadas aos itens do backlog.
+Qual é a definição correta de Incremento no Scrum?
+
+a) Um conjunto de tarefas técnicas que a equipe deve concluir.
+b) A soma dos itens concluídos durante uma Sprint, pronta para ser lançada.
+c) Uma série de testes e melhorias realizadas pela equipe de QA.
+d) O plano para a próxima Sprint.
+O que significa que o Incremento deve estar de acordo com a "Definição de Pronto" (Definition of Done)?
+
+a) Que o produto foi testado, mas ainda precisa ser revisado pelos stakeholders.
+b) Que o Incremento está pronto para ser lançado, independentemente de outras sprints.
+c) Que a equipe de desenvolvimento já implementou todas as melhorias necessárias.
+d) Que o Incremento está funcional, foi testado e está integrado ao produto.
