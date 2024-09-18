@@ -1,4 +1,3 @@
-
 O Scrum é uma metodologia ágil amplamente utilizada para gerenciar projetos, especialmente no desenvolvimento de software. Ele é baseado em um conjunto de eventos que estruturam o trabalho da equipe e garantem a transparência, a inspeção e a adaptação. A seguir, apresento uma visão detalhada sobre cada um desses eventos e os temas abordados em cada um deles.
 
 1 - Sprint
