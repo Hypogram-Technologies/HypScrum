@@ -1,0 +1,72 @@
+
+O Scrum é uma metodologia ágil amplamente utilizada para gerenciar projetos, especialmente no desenvolvimento de software. Ele é baseado em um conjunto de eventos que estruturam o trabalho da equipe e garantem a transparência, a inspeção e a adaptação. A seguir, apresento uma visão detalhada sobre cada um desses eventos e os temas abordados em cada um deles.
+
+1 - Sprint
+A Sprint é o coração do Scrum. Trata-se de um ciclo de trabalho que geralmente dura de uma a quatro semanas, durante o qual um incremento do produto é desenvolvido. O objetivo da Sprint é entregar um resultado potencialmente utilizável ao final de cada ciclo. Os temas abordados incluem:
+
+Planejamento do trabalho: O que pode ser feito nesta Sprint? "Nesta Sprint, podemos focar no desenvolvimento da funcionalidade de gerenciamento de usuários, que inclui a criação, edição e exclusão de perfis. Além disso, planejamos implementar melhorias na interface do usuário e resolver algumas questões técnicas identificadas nas Sprints anteriores. A ideia é priorizar os itens que trazem maior valor ao cliente e que são essenciais para a próxima entrega."
+
+Definição de pronto: Quais critérios devem ser atendidos para que o incremento seja considerado finalizado? "Para que o incremento seja considerado 'pronto', os seguintes critérios devem ser atendidos:
+a. Todos os requisitos funcionais devem estar implementados e testados.
+b. A funcionalidade deve ser revisada e aprovada pelo Product Owner.
+c. A documentação técnica e de usuário deve estar atualizada.
+d. Todos os testes automatizados devem ser executados com sucesso, garantindo que não há regressões.
+e. O código deve estar revisado e integrado ao repositório principal."
+
+Comprometimento da equipe: A equipe se compromete a completar o que planejou. Exemplo: "A equipe se compromete a completar as tarefas planejadas nesta Sprint, reconhecendo que trabalharemos juntos para superar quaisquer desafios que possam surgir. Cada membro se responsabiliza pelas suas tarefas específicas, e estaremos sempre disponíveis para ajudar uns aos outros, garantindo que todos os itens do backlog sejam entregues com qualidade até o final do ciclo."
+
+
+2 - Sprint Planning
+Esse evento acontece no início de cada Sprint e é fundamental para o planejamento do trabalho a ser realizado. A equipe de desenvolvimento, junto com o Product Owner e o Scrum Master, define quais itens do Product Backlog serão abordados. Os principais pontos discutidos são:
+
+Objetivo da Sprint: O que se espera alcançar? "O objetivo desta Sprint é implementar a funcionalidade de gerenciamento de usuários, que permitirá aos administradores criar, editar e excluir perfis de usuários de forma eficiente. Além disso, queremos garantir que a interface do usuário seja intuitiva e responsiva. Ao final da Sprint, esperamos ter um incremento do produto que atenda a essas necessidades e possa ser apresentado ao cliente."
+
+Seleção de itens: Quais itens do backlog serão trabalhados? "Selecionamos os seguintes itens do Product Backlog para esta Sprint:
+a. Implementação da criação de usuários.
+b. Implementação da edição de usuários.
+c. Implementação da exclusão de usuários.
+d. Melhorias na interface do usuário para o gerenciamento de usuários.
+e. Testes automatizados para cada uma dessas funcionalidades.
+Esses itens foram priorizados com base na sua relevância para o cliente e no impacto na usabilidade do sistema."
+
+Planejamento das atividades: Como os itens serão implementados? "Planejamos implementar as funcionalidades da seguinte forma:
+a. Criação de usuários: Um membro da equipe será responsável por desenvolver a lógica de backend e a interface correspondente, utilizando a biblioteca de componentes UI que já estamos usando.
+b. Edição e exclusão de usuários: Outros dois membros trabalharão em paralelo na lógica de edição e exclusão, garantindo que ambos os processos estejam integrados ao mesmo sistema de autenticação.
+c. Interface do usuário: Um designer irá colaborar com os desenvolvedores para assegurar que as melhorias na interface estejam alinhadas com as melhores práticas de usabilidade.
+d. Testes automatizados: Um membro da equipe será encarregado de escrever e executar os testes automatizados conforme cada funcionalidade for sendo implementada, garantindo que as novas adições não quebrem o que já existe.
+e. Faremos reuniões de acompanhamento duas vezes por semana para discutir o progresso e resolver quaisquer bloqueios que surgirem durante a implementação."
+
+
+3. Daily Scrum
+Este é um evento diário, de curta duração (geralmente 15 minutos), onde a equipe se reúne para sincronizar as atividades e discutir o progresso. Cada membro da equipe responde a três perguntas:
+
+O que fiz desde a última reunião? "Desde a última reunião, finalizei a implementação da funcionalidade de criação de usuários e escrevi os testes automatizados para garantir que tudo está funcionando corretamente. Além disso, revisei o código de um colega para a edição de usuários e fiz algumas sugestões de melhoria."
+
+O que pretendo fazer até a próxima reunião? "Hoje, vou focar na implementação da funcionalidade de edição de usuários. Meu objetivo é ter a interface e a lógica de backend prontas para que possamos testá-las juntos amanhã. Também pretendo começar a documentar o código que já escrevi para facilitar a compreensão futura."
+
+Existem impedimentos que estão me bloqueando? "Atualmente, não estou enfrentando impedimentos. No entanto, gostaria de saber se alguém já teve experiência com a biblioteca de autenticação que estamos usando, pois pretendo utilizá-la na funcionalidade de edição e isso pode ajudar a evitar problemas."
+
+O foco é manter a comunicação aberta e identificar rapidamente obstáculos que possam afetar o progresso.
+
+
+4. Sprint Review 
+Ao final da Sprint, a equipe realiza uma Sprint Review para inspecionar o incremento do produto e adaptar o Product Backlog, se necessário. Este evento inclui:
+
+Demonstração do trabalho concluído: A equipe apresenta o que foi desenvolvido durante a Sprint.
+
+Feedback dos stakeholders: Os participantes oferecem sugestões e críticas, ajudando a moldar futuras iterações.
+
+Revisão do Product Backlog: Ajustes são feitos com base no feedback recebido.
+
+
+5. Sprint Retrospective
+Após a Sprint Review, a equipe se reúne para refletir sobre o processo e a colaboração durante a Sprint. O objetivo é identificar o que funcionou bem e o que pode ser melhorado. Os tópicos discutidos incluem:
+
+O que correu bem? "Durante esta Sprint, a colaboração entre os membros da equipe foi excepcional. Todos estavam dispostos a ajudar uns aos outros, e conseguimos completar todas as funcionalidades planejadas dentro do prazo. Além disso, a comunicação foi muito eficaz, especialmente nas reuniões diárias, onde conseguimos identificar e resolver problemas rapidamente."
+
+O que não funcionou como esperado? "Apesar de termos avançado bem, as reuniões diárias se estenderam mais do que o ideal em algumas ocasiões, o que acabou consumindo um tempo precioso. Além disso, tivemos algumas dificuldades com a integração da biblioteca de autenticação, que atrasou o desenvolvimento de uma das funcionalidades."
+
+Quais ações podem ser implementadas na próxima Sprint para melhorar o desempenho? "Para a próxima Sprint, sugiro que estabeleçamos um limite de 15 minutos para as Daily Scrums, a fim de manter o foco e a objetividade. Também podemos agendar uma sessão de 'pair programming' na primeira metade da Sprint para abordar a integração da biblioteca de autenticação, garantindo que todos estejam na mesma página desde o início. Além disso, seria útil revisar a documentação da API antes de começar, para evitar possíveis retrabalhos."
+
+
+Com isso, concluímos que os eventos do Scrum são projetados para fomentar a colaboração e a melhoria contínua. Eles garantem que a equipe esteja alinhada com os objetivos do projeto e que qualquer desvio do plano seja identificado e corrigido rapidamente. Ao adotar essa estrutura, as equipes podem entregar valor ao cliente de forma eficaz e adaptável, respondendo às mudanças com agilidade e eficiência.
