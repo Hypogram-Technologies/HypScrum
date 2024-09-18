@@ -1,6 +1,3 @@
-Texto redigido sobre os papéis do Scrum
-
-
 Product Owner (PO)
 O Product Owner é o responsável por maximizar o valor do produto resultante do trabalho da equipe Scrum. Este papel é crucial para garantir que o produto atenda às necessidades e expectativas dos stakeholders.
 
