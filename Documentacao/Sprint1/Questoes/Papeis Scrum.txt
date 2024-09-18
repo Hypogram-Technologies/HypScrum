@@ -1,17 +1,38 @@
-Questão 1
+Questão 1: Papel do Product Owner
+Qual das seguintes responsabilidades é exclusiva do Product Owner (PO) em uma equipe Scrum?
 
-Quais são as principais responsabilidades do Product Owner na definição da visão do produto e na gestão do Backlog do Produto?
+A) Facilitar a realização de reuniões diárias.
 
-Resposta: As principais responsabilidades do Product Owner na definição da visão do produto incluem estabelecer o que deve ser construído, garantindo que a equipe tenha uma compreensão clara do objetivo do produto. Na gestão do Backlog do Produto, o PO cria, refina e prioriza a lista de requisitos e tarefas, ordenando os itens com base em seu valor e na necessidade de entrega, assegurando que a equipe de desenvolvimento saiba quais são as prioridades para cada interação.
+B) Garantir que a equipe siga as práticas do Scrum.
 
-Questão 2
+C) Definir o que deve ser construído e priorizar o Backlog do Produto.
 
-Qual é a função do Scrum Master ao identificar impedimentos no processo de desenvolvimento?
+D) Organizar e remover impedimentos que afetam a equipe.
 
-Resposta: Quando o Scrum Master identifica impedimentos no processo de desenvolvimento, sua função é atuar como facilitador para remover esses obstáculos. Isso pode envolver a resolução de problemas diretamente, a organização de reuniões para esclarecer questões, ou a intervenção para resolver problemas externos que estão impactando a produtividade da equipe. O objetivo é garantir que a equipe de desenvolvimento possa continuar trabalhando de forma eficiente e eficaz.
+Resposta correta: C) Definir o que deve ser construído e priorizar o Backlog do Produto.
 
-Questão 3
+Questão 2: Papel do Scrum Master
+Qual é uma das principais responsabilidades do Scrum Master?
 
-Por que a auto-organização é uma característica importante para o Time de Desenvolvimento?
+A) Entregar incrementos funcionais do produto.
 
-Resposta: A auto-organização é uma característica importante para o Time de Desenvolvimento porque permite que a equipe decida internamente como melhor realizar o trabalho e se organize de acordo com as suas capacidades e necessidades. Isso promove maior autonomia e responsabilidade, aumenta a eficiência ao permitir que a equipe escolha a abordagem mais adequada para atingir os objetivos da Sprint, e facilita uma colaboração mais eficaz, pois os membros da equipe podem se ajustar rapidamente às mudanças e prioridades durante o desenvolvimento.
+B) Garantir que a equipe de desenvolvimento siga as especificações técnicas.
+
+C) Remover impedimentos e promover um ambiente de trabalho eficaz.
+
+D) Criar e refinar o Backlog do Produto.
+
+Resposta correta: C) Remover impedimentos e promover um ambiente de trabalho eficaz.
+
+Questão 3: Papel da Equipe de Desenvolvimento
+Sobre a Equipe de Desenvolvimento, qual das afirmações abaixo é verdadeira?
+
+A) O Time de Desenvolvimento é responsável por comunicar-se com as partes interessadas.
+
+B) O Time de Desenvolvimento deve decidir como realizar o trabalho e auto-organizar-se.
+
+C) O Time de Desenvolvimento define a visão do produto e prioriza o Backlog do Produto.
+
+D) O Time de Desenvolvimento é responsável por garantir que o Scrum esteja sendo seguido corretamente.
+
+Resposta correta: B) O Time de Desenvolvimento deve decidir como realizar o trabalho e auto-organizar-se.
