@@ -1,18 +1,16 @@
-Prova de Certificação:
-
 1. O principal foco do Manifesto Ágil é em indivíduos e interações, software funcionando, colaboração com o cliente e responder a mudanças.
-( ) Verdadeiro
-( ) Falso
+(a) Verdadeiro
+(b) Falso
 
 2. O mindset ágil em uma organização é caracterizado pela manutenção de uma cultura que valoriza a adaptabilidade, a colaboração e a melhoria contínua.
-( ) Verdadeiro
-( ) Falso
+(a) Verdadeiro
+(b) Falso
 
 3. O Manifesto Ágil é um documento formal, enquanto o mindset ágil é uma atitude e cultura que suporta a aplicação desse manifesto.
-( ) Verdadeiro
-( ) Falso
+(a) Verdadeiro
+(b) Falso
 
 Respostas:
-1. Verdadeiro
-2. Verdadeiro
-3. Verdadeiro
+1. (a)
+2. (a)
+3. (a)
