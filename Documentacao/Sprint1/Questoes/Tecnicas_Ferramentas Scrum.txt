@@ -1,0 +1,29 @@
+Questão 1:
+O que representa o gráfico de Burndown?
+
+a) O número de tarefas que ainda precisam ser iniciadas
+b) O progresso da equipe em relação ao trabalho restante
+c) A quantidade de código escrito durante o Sprint
+d) O tempo total dedicado ao projeto
+
+Resposta: b) O progresso da equipe em relação ao trabalho restante.
+
+Questão 2:
+Ao utilizar o método de Planning Poker para estimar tarefas, qual é o benefício primário dessa abordagem em comparação a métodos tradicionais de estimativa?
+
+a) Reduzir o tempo total gasto em estimativas.
+b) Promover a discussão e o consenso entre os membros da equipe sobre o esforço necessário.
+c) Permitir que um único membro da equipe faça todas as estimativas.
+d) Aumentar a precisão das estimativas usando dados históricos.
+
+Resposta: b) Promover a discussão e o consenso entre os membros da equipe sobre o esforço necessário.
+
+Questão 3:
+Qual é o papel da Definition of Done em um projeto Scrum e como ela impacta a qualidade do trabalho entregue?
+
+a) Ela garante que todas as tarefas sejam feitas dentro do prazo estabelecido.
+b) Ela cria um checklist que deve ser seguido para considerar uma tarefa como concluída, alinhando as expectativas da equipe e aumentando a qualidade.
+c) Ela permite que os membros da equipe trabalhem de forma independente, sem a necessidade de colaboração.
+d) Ela serve apenas como um guia para as reuniões de planejamento.
+
+Resposta: b) Ela cria um checklist que deve ser seguido para considerar uma tarefa como concluída, alinhando as expectativas da equipe e aumentando a qualidade.
