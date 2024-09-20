@@ -1,0 +1,31 @@
+<<<<<<< Updated upstream
+=======
+Questão 1:
+Os pilares do Scrum são fundamentais para a prática ágil e incluem Transparência, Inspeção e Adaptação. No que diz respeito ao pilar da Transparência, é correto afirmar que a Transparência é alcançada apenas com a realização de reuniões diárias, sendo dispensável o uso de ferramentas visuais como quadros Kanban ou burndown charts para acompanhar o progresso do projeto
+
+a) Verdadeiro
+b) Falso
+
+**Resposta:** b) Falso.
+
+---
+
+**Questão 2:**
+No contexto dos valores do Scrum, o Comprometimento é crucial para o sucesso da equipe. Nesse sentido, o comprometimento é melhor praticado quando todos os membros da equipe conhecem suas responsabilidades e estão motivados para alcançar os objetivos do projeto, com um foco compartilhado nos resultados.
+
+a) Verdadeiro
+b) Falso
+
+**Resposta:** a) Verdadeiro.
+
+---
+
+**Questão 3:**
+
+Um projeto Scrum está desenvolvendo um novo aplicativo de e-commerce. Durante a Sprint, um novo regulamento governamental é anunciado, exigindo mudanças significativas na forma como os dados dos clientes são armazenados e processados. Nesse contexto, a melhor abordagem para o time Scrum é avaliar o impacto das mudanças e ajustar o Sprint Backlog conforme necessário.
+
+a) Verdadeiro
+b) Falso
+
+**Resposta:** a) Verdadeiro.
+>>>>>>> Stashed changes
