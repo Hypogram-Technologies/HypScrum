@@ -1,0 +1,38 @@
+Questão 1: Sprint
+Qual é o principal objetivo de uma Sprint no Scrum?
+
+A) Entregar um incremento potencialmente utilizável do produto ao final do ciclo de trabalho
+
+B) Realizar uma revisão do incremento do produto e adaptar o Product Backlog
+
+C) Ajustar as prioridades do Product Backlog com base nas mudanças de requisitos
+
+D) Refletir sobre o processo de trabalho e identificar áreas de melhoria
+
+Resposta correta: A) Entregar um incremento potencialmente utilizável do produto ao final do ciclo de trabalho
+
+Questão 2: Sprint Planning
+Durante o Sprint Planning, qual das seguintes atividades NÃO é realizada?
+
+A) Definir o objetivo da Sprint
+
+B) Selecionar os itens do Product Backlog a serem trabalhados
+
+C) Realizar uma demonstração do trabalho concluído durante a Sprint
+
+D) Planejar como os itens serão implementados e quais atividades serão necessárias
+
+Resposta correta: C) Realizar uma demonstração do trabalho concluído durante a Sprint
+
+Questão 3: Daily Scrum
+Qual é o propósito principal da Daily Scrum?
+
+A) Revisar o Product Backlog e ajustar a prioridade dos itens
+
+B) Apresentar o incremento do produto desenvolvido durante a Sprint
+
+C) Refletir sobre o que correu bem e o que pode ser melhorado na Sprint anterior
+
+D) Sincronizar as atividades da equipe, discutir o progresso e identificar impedimentos
+
+Resposta correta: D) Sincronizar as atividades da equipe, discutir o progresso e identificar impedimentos

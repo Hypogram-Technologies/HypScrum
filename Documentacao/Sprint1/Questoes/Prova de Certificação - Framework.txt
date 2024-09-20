@@ -1,0 +1,35 @@
+Pergunta 1:
+Qual das opções a seguir é uma característica essencial de um framework de trabalho?
+
+a) Aleatoriedade
+b) Estruturação
+c) Desorganização
+d) Imprevisibilidade
+
+Resposta:
+b) Estruturação
+Um framework de trabalho organiza as atividades de forma lógica e sequencial, facilitando a compreensão e a aplicação.
+
+Pergunta 2:
+Quem é o criador do framework Ruby on Rails, amplamente utilizado no desenvolvimento web?
+
+a) Guido van Rossum
+b) David Heinemeier Hansson
+c) Martin Fowler
+d) Ken Schwaber
+
+Resposta:
+b) David Heinemeier Hansson
+David Heinemeier Hansson é o criador do Ruby on Rails, um dos frameworks mais influentes no desenvolvimento web.
+
+Pergunta 3:
+Qual dos seguintes frameworks é amplamente utilizado na gestão ágil de projetos?
+
+a) Django
+b) Laravel
+c) Scrum
+d) Flask
+
+Resposta:
+c) Scrum
+Scrum é um framework ágil amplamente utilizado para a gestão de projetos, especialmente no desenvolvimento de software.
