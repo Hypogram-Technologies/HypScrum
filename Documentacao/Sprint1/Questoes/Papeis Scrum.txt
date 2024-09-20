@@ -1,7 +1,5 @@
 Questão 1: Papel do Product Owner
-Qual das seguintes responsabilidades é exclusiva do Product Owner (PO) em uma equipe Scrum?
-
-Facilitar a realização de reuniões diárias.
+É de responsabilidade exclusiva do Product Owner (PO) em uma equipe Scrum facilitar a realização de reuniões diárias.
 
 a) Verdadeiro
 b) Falso
@@ -9,9 +7,7 @@ b) Falso
 Resposta correta: b) Falso
 
 Questão 2: Papel do Scrum Master
-Qual é uma das principais responsabilidades do Scrum Master?
-
-Entregar incrementos funcionais do produto.
+A principal responsabilidade do Scrum Master é entregar incrementos funcionais do produto.
 
 a) Verdadeiro
 b) Falso
@@ -19,9 +15,7 @@ b) Falso
 Resposta correta: b) Falso
 
 Questão 3: Papel da Equipe de Desenvolvimento
-Sobre a Equipe de Desenvolvimento, qual das afirmações abaixo é verdadeira?
-
-B) O Time de Desenvolvimento deve decidir como realizar o trabalho e auto-organizar-se.
+O Time de Desenvolvimento deve decidir como realizar o trabalho e auto-organizar-se.
 
 a) Verdadeiro
 b) Falso
