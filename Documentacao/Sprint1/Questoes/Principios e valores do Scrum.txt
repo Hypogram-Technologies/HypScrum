@@ -1,29 +1,28 @@
 Questão 1:
-Os pilares do Scrum são fundamentais para a prática ágil e incluem Transparência, Inspeção e Adaptação. Sobre o pilar da Transparência, assinale a alternativa correta:
+Os pilares do Scrum são fundamentais para a prática ágil e incluem Transparência, Inspeção e Adaptação. No que diz respeito ao pilar da Transparência, é correto afirmar que a Transparência é alcançada apenas com a realização de reuniões diárias, sendo dispensável o uso de ferramentas visuais como quadros Kanban ou burndown charts para acompanhar o progresso do projeto
 
-a) Transparência é alcançada apenas com a realização de reuniões diárias e não requer o uso de ferramentas visuais como quadros e gráficos.
-b) A Transparência envolve permitir que todos os membros da equipe tenham acesso às informações importantes sobre o projeto, facilitando a tomada de decisões e o entendimento do estado atual do projeto.
-c) A Transparência refere-se apenas ao acesso das informações da equipe de liderança, sem necessidade de envolvimento direto de todos os membros da equipe no processo de comunicação.
-d) A Transparência no Scrum é limitada ao compartilhamento das tarefas diárias e não se estende às discussões sobre obstáculos e resultados do projeto.
+a) Verdadeiro
+b) Falso
 
-Resposta: b) A Transparência envolve permitir que todos os membros da equipe tenham acesso às informações importantes sobre o projeto, facilitando a tomada de decisões e o entendimento do estado atual do projeto.
+**Resposta:** b) Falso.
 
-Questão 2:
-No contexto dos valores do Scrum, o Comprometimento é crucial para o sucesso da equipe. Qual das alternativas abaixo melhor descreve como o comprometimento é praticado dentro de uma equipe Scrum?
+---
 
-a) O comprometimento é praticado garantindo que apenas os líderes de equipe estejam totalmente envolvidos no projeto, enquanto os membros da equipe apenas executam tarefas designadas.
-b) O comprometimento é demonstrado quando todos os membros da equipe conhecem suas responsabilidades e estão motivados para alcançar os objetivos do projeto, com um foco compartilhado nos resultados.
-c) O comprometimento refere-se ao envolvimento parcial da equipe, permitindo que apenas alguns membros participem ativamente das discussões e decisões relacionadas ao projeto.
-d) O comprometimento é alcançado apenas por meio de incentivos financeiros e não requer envolvimento contínuo ou dedicação dos membros da equipe.
+**Questão 2:**
+No contexto dos valores do Scrum, o Comprometimento é crucial para o sucesso da equipe. Nesse sentido, o comprometimento é melhor praticado quando todos os membros da equipe conhecem suas responsabilidades e estão motivados para alcançar os objetivos do projeto, com um foco compartilhado nos resultados.
 
-Resposta: b) O comprometimento é demonstrado quando todos os membros da equipe conhecem suas responsabilidades e estão motivados para alcançar os objetivos do projeto, com um foco compartilhado nos resultados.
+a) Verdadeiro
+b) Falso
 
-Questão 3:
-Um projeto Scrum está desenvolvendo um novo aplicativo de e-commerce. Durante a Sprint, um novo regulamento governamental é anunciado, exigindo mudanças significativas na forma como os dados dos clientes são armazenados e processados. Qual a melhor abordagem para o time Scrum nesse cenário?
+**Resposta:** a) Verdadeiro.
 
-a) Interromper a Sprint atual e recomeçar com um novo plano.
-b) Continuar a Sprint como planejado e implementar as mudanças no próximo Sprint.
-c) Realizar uma reunião de emergência para avaliar o impacto das mudanças e ajustar o Sprint Backlog.
-d) Ignorar o novo regulamento, pois isso pode comprometer o prazo de entrega da Sprint.
+---
 
-Resposta: c) É fundamental avaliar o impacto das mudanças e ajustar o Sprint Backlog para garantir que o produto final atenda aos novos requisitos.
+**Questão 3:**
+
+Um projeto Scrum está desenvolvendo um novo aplicativo de e-commerce. Durante a Sprint, um novo regulamento governamental é anunciado, exigindo mudanças significativas na forma como os dados dos clientes são armazenados e processados. Nesse contexto, a melhor abordagem para o time Scrum é avaliar o impacto das mudanças e ajustar o Sprint Backlog conforme necessário.
+
+a) Verdadeiro
+b) Falso
+
+**Resposta:** a) Verdadeiro.
