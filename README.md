@@ -8,6 +8,10 @@
 
 Clique [aqui](https://trello.com/invite/b/66cc7d761cd6040a5574bd51/ATTI15a79678699b499a3056afb930ed8bceB5811606/abp) para acessar o quadro do Trello do projeto
 
+## Link para o Figma
+
+Clique [aqui](https://www.figma.com/design/n6FbUNp5Q6kOGvgdb87mGL/Prot%C3%B3tipo-Site-Scrum?node-id=336-439&t=9ftM8URPdSZjyeeG-1) para acessar o protótipo do projeto
+
 ## SPRINTS
 
 | SPRINT | LINK          | INÍCIO     | ENTREGA    | STATUS        |
