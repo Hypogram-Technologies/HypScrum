@@ -32,9 +32,6 @@ O Product Backlog está em constante evolução à medida que o produto avança 
 
 Itens do backlog são descritos como "Histórias de Usuário" ou "Requisitos", e cada um deve incluir critérios de aceitação claros. Isso ajuda a equipe de desenvolvimento a entender exatamente o que deve ser feito e como o sucesso será medido. Além disso, o Product Backlog deve ser suficientemente detalhado para que os itens do topo estejam prontos para serem selecionados para a próxima Sprint.
 
-Exemplo prático do Product Backlog:
-Em um projeto de desenvolvimento de uma plataforma de e-commerce, o Product Backlog pode incluir itens como "Implementar a funcionalidade de carrinho de compras", "Adicionar a opção de pagamento via PayPal" ou "Melhorar o tempo de carregamento da página principal". Esses itens serão refinados e priorizados para garantir que a equipe de desenvolvimento esteja sempre trabalhando nas funcionalidades de maior valor.
-
 2. Sprint Backlog: O Trabalho Focado da Sprint
 O Sprint Backlog é um subconjunto do Product Backlog. Ele contém os itens que foram selecionados pela equipe de desenvolvimento para serem concluídos durante a Sprint. Em outras palavras, o Sprint Backlog é o conjunto de tarefas que a equipe se compromete a entregar em um ciclo de trabalho, que geralmente dura entre uma a quatro semanas.
 
@@ -42,18 +39,12 @@ A equipe de desenvolvimento tem autonomia para decidir como o trabalho será rea
 
 Ao longo da Sprint, o Sprint Backlog é constantemente monitorado e ajustado conforme necessário. As reuniões diárias (Daily Scrum) são uma oportunidade para a equipe discutir o progresso e identificar quaisquer obstáculos que possam estar dificultando a conclusão dos itens do backlog. No entanto, o escopo da Sprint não deve mudar depois que a equipe se compromete com os itens, a menos que haja uma necessidade urgente e significativa.
 
-Exemplo prático do Sprint Backlog:
-No contexto de um aplicativo de gestão financeira, o Sprint Backlog de uma Sprint pode incluir tarefas como "Implementar a funcionalidade de resumo financeiro mensal", "Corrigir bugs na funcionalidade de exportação de dados" e "Refinar a interface do usuário para a visualização de gráficos". A equipe de desenvolvimento decide como organizar essas tarefas para concluir todas dentro do período da Sprint.
-
 3. Incremento: O Resultado Tangível da Sprint
 O Incremento é o terceiro e último artefato do Scrum, representando o resultado acumulado de todos os itens concluídos durante uma Sprint. O Incremento é a soma de todos os itens do Product Backlog que foram concluídos até o momento, e ele deve ser uma versão funcional do produto, pronta para ser entregue ou implementada, caso necessário.
 
 Cada Incremento deve estar de acordo com a "Definição de Pronto" (Definition of Done), um conjunto de critérios que a equipe acorda para garantir que o trabalho foi concluído com qualidade. Esses critérios podem incluir a finalização do desenvolvimento, testes realizados com sucesso, documentação adequada e a integração completa do novo trabalho ao produto.
 
 Um aspecto importante do Incremento é que ele deve ser potencialmente liberável ao final de cada Sprint, mesmo que o Product Owner decida não lançar a nova versão imediatamente. Isso significa que, ao fim de cada Sprint, o produto deve estar em um estado funcional, independentemente de novas funcionalidades serem adicionadas em sprints subsequentes.
-
-Exemplo prático do Incremento:
-Após uma Sprint de duas semanas no desenvolvimento de uma aplicação de reservas de hotéis, o Incremento pode incluir novas funcionalidades como "Reserva com desconto para membros", "Integração com serviço de geolocalização" e "Suporte para múltiplas moedas". Todas essas funcionalidades estão prontas para serem utilizadas, desde que atendam à Definição de Pronto estabelecida pela equipe.
 
 Conclusão
 Os artefatos do Scrum — o Product Backlog, o Sprint Backlog e o Incremento — são componentes vitais para garantir que o desenvolvimento ágil funcione de maneira eficaz. Eles oferecem transparência para todos os envolvidos, garantindo que o progresso seja visível, que os objetivos sejam claros e que as entregas sejam de alta qualidade. O uso adequado desses artefatos permite que as equipes Scrum mantenham o foco no valor, promovam a melhoria contínua e entreguem produtos que atendam às expectativas dos stakeholders.
