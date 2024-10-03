@@ -1,0 +1,16 @@
+1. Estruturação é uma característica essencial de um framework de trabalho, pois organiza as atividades de forma lógica e sequenci1al.
+(a) Verdadeiro
+(b) Falso
+
+2. Ken Schwaber é o criador do framework Ruby on Rails, amplamente utilizado no desenvolvimento web.
+(a) Verdadeiro
+(b) Falso
+
+3. Scrum é um framework amplamente utilizado na gestão ágil de projetos.
+(a) Verdadeiro
+(b) Falso
+
+Respostas:
+1.(a)
+2.(b)
+3.(a)

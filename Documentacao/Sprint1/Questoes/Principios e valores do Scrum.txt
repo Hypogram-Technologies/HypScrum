@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 Questão 1:
 Os pilares do Scrum são fundamentais para a prática ágil e incluem Transparência, Inspeção e Adaptação. No que diz respeito ao pilar da Transparência, é correto afirmar que a Transparência é alcançada apenas com a realização de reuniões diárias, sendo dispensável o uso de ferramentas visuais como quadros Kanban ou burndown charts para acompanhar o progresso do projeto
 
@@ -28,4 +26,3 @@ a) Verdadeiro
 b) Falso
 
 **Resposta:** a) Verdadeiro.
->>>>>>> Stashed changes

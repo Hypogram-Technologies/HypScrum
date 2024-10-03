@@ -1,0 +1,27 @@
+**Questão 1:**
+O gráfico de Burndown mostra a quantidade de código escrito durante o Sprint.
+
+a) Verdadeiro
+b) Falso
+
+**Resposta:** b) Falso.
+
+---
+
+**Questão 2:**
+O método de Planning Poker promove a discussão e o consenso entre os membros da equipe sobre o esforço necessário, sendo esse seu benefício primário em comparação a métodos tradicionais de estimativa.
+
+a) Verdadeiro  
+b) Falso  
+
+**Resposta:** a) Verdadeiro.
+
+---
+
+**Questão 3:**
+A Definition of Done em um projeto Scrum serve como um checklist que deve ser seguido para considerar uma tarefa como concluída, ajudando a alinhar as expectativas da equipe e aumentar a qualidade do trabalho entregue.
+
+a) Verdadeiro  
+b) Falso  
+
+**Resposta:** a) Verdadeiro.

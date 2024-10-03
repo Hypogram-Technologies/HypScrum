@@ -1,0 +1,20 @@
+Questão 1: Sprint
+O principal objetivo de uma Sprint no Scrum é entregar um incremento potencialmente utilizável do produto ao final do ciclo de trabalho.
+A) Verdadeiro
+B) Falso
+
+Resposta: A) Verdadeiro
+
+Questão 2: Sprint Planning
+Durante o Sprint Planning, é realizada uma demonstração do trabalho concluído durante a Sprint.
+A) Verdadeiro
+B) Falso
+
+Resposta: B) Falso
+
+Questão 3: Daily Scrum
+O propósito principal da Daily Scrum é sincronizar as atividades da equipe, discutir o progresso e identificar impedimentos.
+A) Verdadeiro
+B) Falso
+
+Resposta: A) Verdadeiro
