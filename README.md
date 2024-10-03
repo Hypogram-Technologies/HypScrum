@@ -1,18 +1,18 @@
 # HypScrum 💻
 
-## Descrição
+## Descrição 📝
 
 **Este projeto é um sistema web desenvolvido para guiar os usuários no aprendizado do Scrum. O sistema inclui seções de instrução com avaliações e um mecanismo para emissão de certificados de conclusão do curso. Ele é construído utilizando HTML, CSS, JavaScript e PostgreSQL, e as telas foram prototipadas no Figma.**
 
-## Link para o Trello
+## Link para o Trello 📒
 
 Clique [aqui](https://trello.com/invite/b/66cc7d761cd6040a5574bd51/ATTI15a79678699b499a3056afb930ed8bceB5811606/abp) para acessar o quadro do Trello do projeto
 
-## Link para o Figma
+## Link para o Figma 🖼️
 
 Clique [aqui](https://www.figma.com/design/n6FbUNp5Q6kOGvgdb87mGL/Prot%C3%B3tipo-Site-Scrum?node-id=336-439&t=9ftM8URPdSZjyeeG-1) para acessar o protótipo do projeto
 
-## SPRINTS
+## SPRINTS 📊
 
 | SPRINT | LINK          | INÍCIO     | ENTREGA    | STATUS        |
 | ------ | ------------- | ---------- | ---------- | ------------- |
@@ -23,7 +23,7 @@ Clique [aqui](https://www.figma.com/design/n6FbUNp5Q6kOGvgdb87mGL/Prot%C3%B3tipo
 
 <!-- ✔ -->
 
-## USER STORIES
+## USER STORIES 🧾
 
 <br>
 
@@ -42,7 +42,7 @@ Clique [aqui](https://www.figma.com/design/n6FbUNp5Q6kOGvgdb87mGL/Prot%C3%B3tipo
 <br>
 <br>
 
-## Requisitos
+## Requisitos 📜
 
 ### Requisitos Funcionais
 
@@ -68,7 +68,7 @@ Clique [aqui](https://www.figma.com/design/n6FbUNp5Q6kOGvgdb87mGL/Prot%C3%B3tipo
 
 <br>
 
-## EQUIPE
+# EQUIPE 👨🏻‍💻
 
 <br>
 
@@ -84,16 +84,29 @@ Clique [aqui](https://www.figma.com/design/n6FbUNp5Q6kOGvgdb87mGL/Prot%C3%B3tipo
 | Tauane Mariano dos Santos         | Developer     | [tauane21](https://github.com/tauane21)                   |
 |                                   |               |
 
-# Sprints
+# Sprints📈🏃🏻
 
-## Tecnologias Utilizadas
+## Sprint 1📈🏃🏻
+O foco da Sprint 1 foi coletar junto com o cliente através do Product Owner os requisitos, e qualifica-los como requisitos funcionáis (RF) e requisitos não funcionais (RNF). Após a validação dos requisitos a equipe criou os cards a serem trablhados e registrou tudo no Trello, onde fomos trabalhando. O foco da primeira sprint foi desenhar um protótipo de alta fidelidade no Figma para alinhar a expectativa do cliente com relação ao produto final entregue. 
+<br>
+### Backlog Sprint 1 📃
+ <br>
+
+### Burndown Chart 🔥
+<p align="center">
+  <img width="687" height="353" src="https://github.com/user-attachments/assets/058e9f4d-1b5e-469f-8738-47ca8a1510ff">
+</p>
+
+<br>
+
+## Tecnologias Utilizadas 🖥️
 
 <br>
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> </p>
 
 <br>
 
-### Estrutura do Projeto
+### Estrutura do Projeto 🗂️
 
 - **Frontend:**
 
