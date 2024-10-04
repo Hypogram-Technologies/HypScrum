@@ -1,9 +1,0 @@
-- É necessário termos o protótipo mobile e desktop? 
-	*Os protótipos serão apenas desktop
-- Podemos fazer uma avaliação final para emitir o certificado? 
-	*Só teremos as 3 questões por seção
-- Os protótipos precisam ser totalmente fidedignos, ou seja, precisaremos prototipar a tela de cada um dos tópicos que serão abordados no sistema?
-	*Sim, todas as telas precisarão ser prototipadas
-- No site teremos uma seção 'Sobre nós' para falarmos um pouco da empresa?
-	*Não é obrigatório, mas pode adicionar
-- As questões precisam ser obrigatoriamente de verdadeiro ou falso?
