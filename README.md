@@ -16,7 +16,7 @@ Clique [aqui](https://www.figma.com/design/n6FbUNp5Q6kOGvgdb87mGL/Prot%C3%B3tipo
 
 | SPRINT | LINK          | INÍCIO     | ENTREGA    | STATUS        |
 | ------ | ------------- | ---------- | ---------- | ------------- |
-| 01     | [Sprint 01](#sprint-1) | 10/09/2024 | 02/10/2024 | Em andamento  |
+| 01     | [Sprint 01](#sprint-1) | 10/09/2024 | 04/10/2024 |  ✔  |
 | 02     | [Sprint 02]() | 07/10/2024 | 01/11/2024 | Aguardando... |
 | 03     | [Sprint 03]() | 04/11/2024 | 22/11/2024 | Aguardando... |
 |        |               |            |            |               |
