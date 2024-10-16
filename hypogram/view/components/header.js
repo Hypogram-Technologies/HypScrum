@@ -7,7 +7,7 @@ export function createHeader() {
             <a href="index.html">Inicio</a>
             <a href="sobre.html">Sobre</a>
             <a href="aprendaScrum.html">Aprenda Scrum</a>
-            <a href="" class="show">Questionários</a>
+            <a href="selecaoQuestionario.html" class="show">Questionários</a>
         </nav>
         <div id="botoes">
             <button class="show">Certificado</button>

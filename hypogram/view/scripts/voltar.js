@@ -1,3 +1,7 @@
-function voltar() {
-  window.history.back();
+export function voltar() {
+  if (window.opener) {
+    window.close();
+  } else {
+    window.history.back();
+  }
 }
