@@ -1,135 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/questionario.css">
     <title>Questionário</title>
-    <link rel="stylesheet" href="./styles/questionarios.css" />
-    <script type="module" src="scripts/index.js" defer></script>
-  </head>
-  <body>
+</head>
+<body>
     <main>
-      <section class="cabecalho">
-        <h1>Questionário sobre a Metodologia Scrum</h1>
-        <p>
-          Bem-vindo à página do questionário! O conteúdo está organizado por
-          capítulos. Para iniciar o questionário de cada capítulo, basta clicar
-          no conteúdo correspondente. Certifique-se de revisar cada capítulo
-          antes de começar o questionário.
-        </p>
-      </section>
-      <section class="questoes">
-        <div class="questoes-conteudos">
-          <article>
-            <div class="imagem-descricao">
-              <img
-                src="../public/imgs/livro-questoes.svg"
-                alt="Livro representando questões"
-              />
-              <h2>Questões Capítulo 1 - Cultura e mindset ágil</h2>
-            </div>
-                <button onclick="getQuetionario('1')">
-                  <img
-                    src="../public/imgs/seta-questoes.svg"
-                    alt="Seta para próximo capítulo"
-                  />
-                </button>
-          </article>
-          <article>
-            <div class="imagem-descricao">
-              <img
-                src="../public/imgs/livro-questoes.svg"
-                alt="Livro representando questões"
-              />
-              <h2>Questões Capítulo 2 - Princípios e valores</h2>
-            </div>
-                <button onclick="getQuetionario('2')">
-                  <img
-                    src="../public/imgs/seta-questoes.svg"
-                    alt="Seta para próximo capítulo"
-                  />
-                </button>
-          </article>
-          <article>
-            <div class="imagem-descricao">
-              <img
-                src="../public/imgs/livro-questoes.svg"
-                alt="Livro representando questões"
-              />
-              <h2>Questões Capítulo 3 - Papéis do scrum</h2>
-            </div>
-                <button onclick="getQuetionario('3')">
-                  <img
-                    src="../public/imgs/seta-questoes.svg"
-                    alt="Seta para próximo capítulo"
-                  />
-                </button>
-          </article>
-          <article>
-            <div class="imagem-descricao">
-              <img
-                src="../public/imgs/livro-questoes.svg"
-                alt="Livro representando questões"
-              />
-              <h2>Questões Capítulo 4 - Artefatos do Scrum</h2>
-            </div>
-                <button onclick="getQuetionario('4')">
-                  <img
-                    src="../public/imgs/seta-questoes.svg"
-                    alt="Seta para próximo capítulo"
-                  />
-                </button>
-          </article>
-          <article>
-            <div class="imagem-descricao">
-              <img
-                src="../public/imgs/livro-questoes.svg"
-                alt="Livro representando questões"
-              />
-              <h2>Questões Capítulo 5 - Eventos do Scrum</h2>
-            </div>
-
-                <button onclick="getQuetionario('5')">
-                  <img
-                    src="../public/imgs/seta-questoes.svg"
-                    alt="Seta para próximo capítulo"
-                  />
-                </button>
-          </article>
-          <article>
-            <div class="imagem-descricao">
-              <img
-                src="../public/imgs/livro-questoes.svg"
-                alt="Livro representando questões"
-              />
-              <h2>Questões Capítulo 6 - Framework de trabalho</h2>
-            </div>
-                <button onclick="getQuetionario('6')">
-                  <img
-                    src="../public/imgs/seta-questoes.svg"
-                    alt="Seta para próximo capítulo"
-                  />
-                </button>
-          </article>
-          <article>
-            <div class="imagem-descricao">
-              <img
-                src="../public/imgs/livro-questoes.svg"
-                alt="Livro representando questões"
-              />
-              <h2>Questões Capítulo 7 - Técnicas e ferramentas</h2>
-            </div>
-                <button onclick="getQuetionario('7')">
-                  <img
-                    src="../public/imgs/seta-questoes.svg"
-                    alt="Seta para próximo capítulo"
-                  />
-                </button>
-          </article>
-        </div>
-      </section>
-    </main>
-    <script src="../data/questionario_data.js"></script>
-    <script src="./scripts/questionario.js"></script>
-  </body>
+        <section class="cabecalho">
+            <h1>Cultura e Mindset ágil</h1>
+            <p>
+                Você está prestes a iniciar o teste sobre o conteúdo do capítulo um. Para ser aprovado é necessário acertar pelo menos 2 questões. Leia atentamente cada pergunta e selecione a resposta que considerar correta. Boa sorte!
+            </p>
+        </section>
+        <section class="questoes">
+            <form action="#" method="POST" id="form-questionario"> 
+                <ol class="lista-questoes">
+                    <article>
+                        <li>
+                            O principal foco do Manifesto Ágil é em indivíduos e interações, software funcionando, colaboração com o cliente e responder a mudanças.
+                        </li>
+                        <fieldset class="alternativas">
+                            <div class="alternativa-verdadeira">
+                                <input type="radio" name="alternativa1" id="alternativa-verdadeira1">
+                                <label for="alternativa-verdadeira1">verdadeiro</label>
+                            </div>
+                            <div class="alternativa-falsa">
+                                <input type="radio" name="alternativa1" id="alternativa-falsa1">
+                                <label for="alternativa-falsa1">falso</label>
+                            </div>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <li>O mindset ágil em uma organização é caracterizado pela manutenção de uma cultura que valoriza a adaptabilidade, a colaboração e a melhoria contínua.</li>
+                        <fieldset class="alternativas">
+                            <div class="alternativa-verdadeira">
+                                <input type="radio" name="alternativa2" id="alternativa-verdadeira2">
+                                <label for="alternativa-verdadeira2">verdadeiro</label>
+                            </div>
+                            <div class="alternativa-falsa">
+                                <input type="radio" name="alternativa2" id="alternativa-falsa2">
+                                <label for="alternativa-falsa2">falso</label>
+                            </div>
+                        </fieldset>
+                    </article>
+                    <article>
+                        <li>O Manifesto Ágil é um documento formal, enquanto o mindset ágil é uma atitude e cultura que suporta a aplicação desse manifesto.</li>
+                        <fieldset class="alternativas">
+                            <div class="alternativa-verdadeira">
+                                <input type="radio" name="alternativa3" id="alternativa-verdadeira3">
+                                <label for="alternativa-verdadeira3">verdadeiro</label>
+                            </div>
+                            <div class="alternativa-falsa">
+                                <input type="radio" name="alternativa3" id="alternativa-falsa3">
+                                <label for="alternativa-falsa3">falso</label>
+                            </div>
+                        </fieldset>
+                    </article>
+                </ol>
+                <div class="botoes">
+                    <button type="button" id="button-voltar" onclick="voltar()">Voltar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+      </main>
+      <script src="./scripts/voltar.js"></script>
+</body>
 </html>
