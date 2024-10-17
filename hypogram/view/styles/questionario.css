@@ -68,11 +68,6 @@ fieldset{
     margin-right: 1rem;
 }
 
-.alternativas> div > input:checked{
-    background-color: red;
-}
-
-
 .botoes{
     display: flex;
     justify-content: space-between;
