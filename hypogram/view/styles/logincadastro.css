@@ -1,0 +1,127 @@
+@import 'global.css';
+
+body{
+    background-image: url(/public/imgs/login.svg);
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    margin: 0;
+}
+
+main{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+  
+}
+
+form{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.8); 
+
+}
+
+form div{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    margin: auto;
+    gap: 2rem;
+}
+
+.container{
+    width: 30rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    gap: 1rem;
+}
+
+input{
+    border: none;
+    padding-right: 10rem;
+    height: 4rem;
+    width: 29rem;
+    outline: none;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+.icon {
+    position: absolute;
+    right: 58%;
+}
+
+input[type="email"] {
+    padding-right: 40px; /* Espaço para o ícone dentro do input */
+}
+
+.titulo{
+    font-size: var(--xx-large);
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.textos{
+    display: flex; 
+    align-items: center; 
+    text-decoration: underline;
+    text-decoration-color: white;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.texto_individual{
+    font-size: var(--small);
+    color: white;
+    /* margin: 0 0.3rem;   */
+    font-weight:100;
+    width: 100%; 
+}
+
+.retangulo_branco{
+
+    background-color: white ;
+    height: 4rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+
+.retangulo_cinza{
+    background-color: var(--login-bg);
+    height: 4rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.espacamento{
+    padding-top: 0.5rem;
+}
