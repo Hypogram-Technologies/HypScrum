@@ -64,6 +64,15 @@ fieldset{
     gap: 5rem;
 }
 
+.alternativas> div > input{
+    margin-right: 1rem;
+}
+
+.alternativas> div > input:checked{
+    background-color: red;
+}
+
+
 .botoes{
     display: flex;
     justify-content: space-between;
