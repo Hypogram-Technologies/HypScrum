@@ -4,12 +4,14 @@
     --main-bg:#DEE2E6;
     --header-bg: #3c096c;
     --footer-bg: #222222;
+    --login-bg: #354545;
     --questoes-bg:#D9D9D9;
     --info-aux-color:#868686;
 
     --small: 1.2rem;
     --normal: 1.6rem;
     --medium: 1.8rem;
+    --xx-large: 3.5rem;
 
     --h1: 5.2rem;
     --h2: 4.8rem;
@@ -42,6 +44,11 @@ button{
     height: 4rem;
     border: 1px solid black;
     font-size: var(--normal);
+}
+
+
+i{
+    font-size: 1.5rem;
 }
 
 .questionario{
