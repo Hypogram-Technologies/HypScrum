@@ -15,8 +15,7 @@
 
     --h1: 5.2rem;
     --h2: 4.8rem;
-    --h3: 3.2rem;
-    --h4: 2rem;
+    --h3: 2.4rem;
 
     --container: 140rem;
 }
@@ -58,12 +57,11 @@ i{
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    margin: 5rem;
+    margin-top: 5rem;
 }
 
 .questionario > p{
     color: var(--info-aux-color);
-    font-size: var(--normal)
 }
 
 
@@ -76,12 +74,4 @@ i{
 
 .button-questionario:hover{
     cursor: pointer;
-}
-
-.next-previous{
-    width: 100%;
-    display: flex;    
-    justify-content: space-between;
-    font-size: var(--normal);
-    margin: 5rem 0rem ;
 }
