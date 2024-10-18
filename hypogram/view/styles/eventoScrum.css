@@ -1,0 +1,93 @@
+@import 'global.css';
+@import 'header.css';
+@import 'footer.css';
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: var(--main-bg);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: var(--container);
+    margin-top: 5rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+section h1{
+    font-size: var(--h1);
+    align-self: center;
+}
+
+section div{
+    margin: auto;
+}
+
+section > div img{
+    align-self: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+article h2{
+    font-size: var(--h3);
+}
+
+article h3{
+    font-size: var(--h4);
+}
+
+article p{
+    font-size: var(--normal);
+}
+
+article ul, article ol{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 1.8rem;
+    font-size: var(--normal);
+}
+
+#borda-lateral{
+    padding: 1rem;
+    border-left: 1px solid #6f7173;
+}
+
+#sprint-planning{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#conteudo-sprint-planning{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0;
+}
+
+p + img{
+    margin: auto;
+    width: 65rem;
+}
+
+.next-previous{
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    font-size: var(--normal);
+    margin: 5rem 0rem ;
+}
