@@ -2,22 +2,18 @@
 @import "header.css";
 @import "footer.css";
 
-* {
-  box-sizing: border-box;
-}
-
 h1 {
   font-size: var(--h1);
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: var(--h3);
 }
 
 p,
 li,
 label {
-  font-size: 2rem;
+  font-size: var(--normal);
   text-align: justify;
 }
 
@@ -25,7 +21,16 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 5rem;
+  background-color: var(--main-bg);
+}
+
+.container{
+  width: var(--container);
+  margin: auto;
+}
+
+article {
+  gap: 1.5rem;
 }
 
 .cabecalho {
@@ -74,15 +79,8 @@ main {
     font-size: 2.5rem;
   }
 
-  p,
-  li,
-  label {
-    font-size: 1.6rem;
-    text-align: justify;
-  }
-
-  h1{
-    font-size: 4.5rem
+  h1 {
+    font-size: 4.5rem;
   }
 
   .topico {

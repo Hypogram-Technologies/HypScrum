@@ -40,7 +40,7 @@ article{
     gap: 1.5rem;
 }
 
-article h2{
+article h2, h2{
     font-size: var(--h3);
 }
 
