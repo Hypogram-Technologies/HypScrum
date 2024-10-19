@@ -2,23 +2,46 @@
 @import "header.css";
 @import "footer.css";
 
+
+p{
+    margin: 10px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 5px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     font-size: 25px;
     background-color: #DEE2E6;
     color: #343A40;
     padding: 20px;
 }
 
-    .conteudo{
+article{
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: justify;
     font-size: 15px;
     line-height: 1.5em;
     margin-left: 80px;
     margin-right: 70px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
