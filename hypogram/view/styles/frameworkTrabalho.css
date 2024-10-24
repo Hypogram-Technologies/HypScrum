@@ -18,10 +18,19 @@ p, li, label{
 
 main{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 5rem;
+    flex-grow: 1;
+    background-color: var(--main-bg);
 
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: var(--container);
+    margin-top: 5rem;
+    width: var(--container);
 }
 
 .cabecalho{
@@ -65,3 +74,11 @@ main{
     justify-content: space-around;
     gap: 5rem;
  }
+
+ .next-previous{
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    font-size: var(--normal);
+    margin: 5rem 0rem ;
+}
