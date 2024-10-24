@@ -2,22 +2,19 @@
 @import 'header.css';
 @import 'footer.css';
 
-* {
-    box-sizing: border-box;
-}
 
 p, li, label{
     font-size: 2rem;
 }
 
-main {
+#secao-questoes{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto; 
 }
 
-section{
+#secao-questoes section{
     margin: 2%;
     width: 75%;
 }

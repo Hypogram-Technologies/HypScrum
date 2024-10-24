@@ -5,8 +5,10 @@ window.voltar = voltar;
 export function createQuestionario() {
   const dadosQuestionario = JSON.parse(localStorage.getItem("questionario"));
   localStorage.removeItem("questionario");
-  const main = document.createElement("main");
-  main.innerHTML = `
+  const main = document.querySelector("main");
+  const section = document.createElement("section");
+  section.id = 'secao-questoes'
+  section.innerHTML = `
         <section class="cabecalho">
             <h1>${dadosQuestionario.titulo}</h1>
             <p>
@@ -25,7 +27,7 @@ export function createQuestionario() {
         </section>
   `;
 
-  let ol = main.querySelector("ol");
+  let ol = section.querySelector("ol");
   ol.innerHTML = dadosQuestionario.questoes
     .map((element, index) => {
       return `
@@ -47,6 +49,5 @@ export function createQuestionario() {
     `;
     })
     .join("");
-  
-  document.body.appendChild(main);
+  main.appendChild(section)
 }

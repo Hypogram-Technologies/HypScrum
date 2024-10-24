@@ -1,6 +1,7 @@
 @import "global.css";
 @import "header.css";
 @import "footer.css";
+@import "questionarioModal.css";
 
 .container{
     display: flex;
@@ -27,6 +28,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .img{

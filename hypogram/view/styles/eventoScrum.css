@@ -1,6 +1,7 @@
 @import 'global.css';
 @import 'header.css';
 @import 'footer.css';
+@import "questionarioModal.css";
 
 main{
     display: flex;
