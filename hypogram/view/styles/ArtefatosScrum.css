@@ -1,0 +1,88 @@
+@import "global.css";
+@import "header.css";
+@import "footer.css";
+@import "questionarioModal.css";
+
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 10px;
+}
+
+h3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.introducao{
+    display: flex;
+    justify-content: center;
+    text-size-adjust: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 25px;
+    background-color: #DEE2E6;
+    color: #343A40;
+    padding: 20px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.incremento-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #DEE2E6;
+    margin-top: 20px;
+}
+
+.texto-lateral {
+    width: 55%;
+    font-size: 15px;
+}
+
+.img-lateral {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-lateral img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
