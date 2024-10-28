@@ -40,8 +40,19 @@ article{
     margin-right: 70px;
 }
 
+ol{
+    margin-left: 50px;
+    list-style-type: decimal;
+}
+
+li{
+    padding-bottom: 5px;    
+}
+
 .img{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 25px;
+    font-size: 17px;
 }
