@@ -86,3 +86,11 @@ article{
     border-radius: 4px;
     padding: 5px;
 }
+
+.next-previous{
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    font-size: var(--normal);
+    margin: 5rem 0rem ;
+}

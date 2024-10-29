@@ -5,6 +5,7 @@ header{
     border-bottom: 1px solid var(--header-bg); 
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     z-index: 10;
+    position: fixed;
 }
 
 .header-container{
@@ -16,6 +17,7 @@ header{
     align-items: center;
     justify-content: space-between;
     font-size: var(--normal);
+    padding: 1rem;
 }
 
 nav{
