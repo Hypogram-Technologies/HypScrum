@@ -16,10 +16,33 @@
 .conteudo{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     text-align: justify;
     font-size: 15px;
     line-height: 1.5em;
     margin-left: 80px;
     margin-right: 70px;
+}
+
+.img{
+    display: flex;
+    align-self: center;
+    font-size: 15px;
+    margin: 15px;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3, p{
+    margin: 10px;
+}
+
+.questionario{
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }

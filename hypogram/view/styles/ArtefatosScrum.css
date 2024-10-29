@@ -3,22 +3,35 @@
 @import "footer.css";
 @import "questionarioModal.css";
 
-
-p{
-    margin: 10px;
+* {
+    box-sizing: border-box;
 }
 
 h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+p{
+    margin: 10px;
 }
 
 h3{
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    margin: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.introducao{
+    display: flex;
+    justify-content: center;
+    text-size-adjust: 10px;
 }
 
 .container{
@@ -41,19 +54,35 @@ article{
     margin-right: 70px;
 }
 
-ol{
-    margin-left: 50px;
-    list-style-type: decimal;
-}
-
-li{
-    padding-bottom: 5px;    
-}
-
 .img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 25px;
-    font-size: 17px;
+}
+
+.incremento-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #DEE2E6;
+    margin-top: 20px;
+}
+
+.texto-lateral {
+    width: 55%;
+    font-size: 15px;
+}
+
+.img-lateral {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-lateral img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
 }

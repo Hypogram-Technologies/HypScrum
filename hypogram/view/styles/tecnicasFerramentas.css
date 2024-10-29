@@ -6,7 +6,6 @@
 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-size: 25px;
     background-color: #DEE2E6;
     color: #343A40;
@@ -16,7 +15,7 @@
 .conteudo{
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     text-align: justify;
     font-size: 15px;
     line-height: 1.5em;
@@ -24,15 +23,30 @@
     margin-right: 70px;
 }
 
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+p{
+    display: flex;
+    align-items: flex-start;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
 section{
     display: flex;
-    align-items: center;
+    align-self: center;
     justify-content: center;
     flex-direction: column;
 }
 
 .img{
     display: flex;
-    align-items: center;
+    align-self: center;
     justify-content: center;
+    margin: 20px;
 }
