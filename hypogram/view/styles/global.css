@@ -46,6 +46,9 @@ button{
     font-size: var(--normal);
 }
 
+main{
+    margin-top: 5rem;
+}
 
 i{
     font-size: 1.5rem;

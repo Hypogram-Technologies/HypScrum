@@ -46,3 +46,11 @@ h3, p{
     align-self: center;
     justify-content: center;
 }
+
+.next-previous{
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    font-size: var(--normal);
+    margin: 5rem 0rem ;
+}
