@@ -76,20 +76,24 @@
                     <h3>Conclusão</h3>
 
                     <p>Combinar essas técnicas e ferramentas, como Trello, Jira e GitHub, pode melhorar muito a eficácia de uma equipe que trabalha em projetos. O Scrum oferece uma estrutura clara, enquanto as ferramentas ajudam a otimizar o trabalho, aumentar a transparência e garantir a qualidade das entregas. Isso leva a resultados mais rápidos e alinhados com as necessidades dos usuários.</p>
-
-                    <section class="questionario">
+            
+              
+                      <section class="questionario">
                         <h2>Questionário</h2>
                         <p>Clique abaixo para abrir as questão</p>
-                        <button class="button-questionario">Questionário</button>
+                        <button 
+                        onclick="getQuetionario('7')"
+                        class="button-questionario">Questionário</button>
                     </section>
-
-            </div>
         </article>
         
             
     </main>
 
     <script type="module" src="./scripts/index.js"></script>
+    <script type="module" src="../view/scripts/indexModalQuestionario.js"></script>
+    <script src="../public/data/questionario_data.js"></script>
+    <script src="./scripts/getQuetionario.js"></script>
 
 </body>
 </html>

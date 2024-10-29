@@ -64,6 +64,10 @@ i{
     color: var(--info-aux-color);
 }
 
+.questionario > h2{
+    font-size: var(--h2);
+}
+
 
 .button-questionario{
     background-color: var(--footer-bg);
