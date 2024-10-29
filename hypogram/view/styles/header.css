@@ -20,6 +20,11 @@ header{
     padding: 1rem;
 }
 
+button:hover, a:hover{
+    transform: scale(1.1);
+}
+
+
 nav{
     display: flex;
     justify-content: space-around;

@@ -6,7 +6,7 @@ main {
     position: relative;
     width: 100%;
     padding-top: 20rem;
-    background-image: url(/public/imgs/bg-sobre.jpeg);
+    background-image: url(/hypogram/public/imgs/bg-sobre.jpeg);
     background-size: cover; 
     background-repeat: no-repeat; 
     background-position: center; 
