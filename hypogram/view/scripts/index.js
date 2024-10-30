@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function setupEntrarSair(login) {
   const entrarSair = document.querySelector("#entrarSair");
-  localStorage.setItem("paginaAnterior", window.location.href);
   if (entrarSair) {
+    localStorage.setItem("paginaAnterior", window.location.href);
     entrarSair.addEventListener("click", () => {
       const paginaAnterior = localStorage.getItem("paginaAnterior");
       if (!login) {
@@ -40,7 +40,7 @@ function setupQuestionario(login) {
 
 function setupCadastro(login) {
   const cadastro = document.querySelector("#botao-inscreva");
-  console.log(cadastro);
+
   if (cadastro) {
     if (login) {
       cadastro.style.display = "none";

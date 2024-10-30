@@ -16,10 +16,10 @@ function getUsuario() {
   if (!isusuarioEncontrado) {
     alert("Usuário não encontrado.");
   } else {
-    let ultimaPagina = window.history.back();
-    if (ultimaPagina) {
-      window.location.href = ultimaPagina;
-    } else {
+    const paginaAnterior = localStorage.getItem("paginaAnterior");
+    if (paginaAnterior) {
+      window.location.href = paginaAnterior
+     } else {
       window.location.href = "./aprendaScrum.html";
     }
   }
