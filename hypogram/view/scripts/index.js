@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const login = localStorage.getItem("login");
   setupEntrarSair(login);
   setupQuestionario(login);
+  setupCadastro(login);
 });
 
 function setupEntrarSair(login) {
@@ -28,10 +29,23 @@ function setupEntrarSair(login) {
 
 function setupQuestionario(login) {
   const questionario = document.querySelector("section.questionario");
-  if (!login) {
-    questionario.style.display = 'none';
-  }else{
-    questionario.style.display = 'flex';
+  if (questionario) {
+    if (!login) {
+      questionario.style.display = "none";
+    } else {
+      questionario.style.display = "flex";
+    }
   }
+}
 
+function setupCadastro(login) {
+  const cadastro = document.querySelector("#botao-inscreva");
+  console.log(cadastro);
+  if (cadastro) {
+    if (login) {
+      cadastro.style.display = "none";
+    } else {
+      cadastro.style.display = "flex";
+    }
+  }
 }
