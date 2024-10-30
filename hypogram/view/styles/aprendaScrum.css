@@ -43,12 +43,12 @@ main > h1{
     text-align: justify;
 }
 
-#botao-inscreva{
+#botao-leiaMais{
     display: flex;
     align-items: center;
 }
 
-#botao-inscreva button{
+#botao-leiaMais button{
     display: flex;
     align-items: center;
     background-color: var(--main-bg);
