@@ -25,7 +25,6 @@ export function enviarQuestionario() {
     //Realizar inserção no banco
 
     alert(`Você acertou ${pontuacao} de ${totalQuestoes} questões.`);
-    localStorage.setItem("tipoRetorno", "MODAL");
     voltar();
     event.preventDefault();
   });
