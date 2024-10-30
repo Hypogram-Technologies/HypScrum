@@ -11,7 +11,7 @@ export function createHeader() {
         </nav>
         <div id="botoes">
             <button class="show">Certificado</button>
-            <button onclick="abrirTela('./login.html')">Entrar</button>
+            <button id="entrarSair">Entrar</button>
         </div>
     </div>
     `;
@@ -20,13 +20,16 @@ export function createHeader() {
   img.src = "../public/imgs/logotipo.svg";
   img.alt = "Logotipo do curso";
 
-  let login = true;
+  let login = localStorage.getItem("login");
 
   if (!login) {
     const aparecer = header.querySelectorAll(".show");
     aparecer.forEach((elemento) => {
       elemento.style.display = "none";
     });
+  } else {
+    let entrarSair = header.querySelector("#entrarSair");
+    entrarSair.innerHTML = "Sair";
   }
 
   const main = document.querySelector("main");

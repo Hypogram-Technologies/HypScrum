@@ -16,6 +16,6 @@ btnQuestionario.addEventListener('click', () => {
     left: 0,
     behavior: 'smooth',
   });
-  sessionStorage.setItem('tipoRetorno', 'MODAL');
+  localStorage.setItem('tipoRetorno', 'MODAL');
   createQuestionario();
 });
