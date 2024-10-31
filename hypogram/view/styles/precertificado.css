@@ -1,0 +1,60 @@
+@import 'global.css';
+@import 'header.css';
+@import 'footer.css';
+
+main {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    padding: 150px; 
+    box-sizing: border-box;
+}
+
+.img {
+    align-items: center;
+    z-index: 1;
+    max-width: 90%; 
+    max-height: 90%; 
+    height: auto; 
+    width: auto;    
+}
+
+.button1 {
+    position: absolute;
+    z-index: 2;
+    height: 40px;
+    width: 120px;
+    top: 425px;
+    left: 550px;
+    background-color: black;
+    color: white;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 11px;
+    padding-top: 11px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.button2 {
+    position: absolute;
+    z-index: 2;
+    height: 40px;
+    width: 120px;
+    top: 425px;
+    left: 850px; 
+    background-color: black;
+    color: white;
+    font-size: small;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-left: 22px;
+    padding-top: 11px;
+    text-decoration: none;
+}
