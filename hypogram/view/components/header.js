@@ -10,7 +10,7 @@ export function createHeader() {
             <a href="selecaoQuestionario.html" class="show">Questionários</a>
         </nav>
         <div id="botoes">
-            <button class="show" onclick="abrirTela('certificado.html')">Certificado</button>
+            <button class="show" onclick="abrirTela('preCertificado.html')">Certificado</button>
             <button id="entrarSair">Entrar</button>
         </div>
     </div>
