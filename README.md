@@ -204,6 +204,31 @@ O foco da Sprint 1 foi coletar junto com o cliente através do Product Owner os 
 O foco da Sprint 2 foi desenvolver o prototipo gerado na sprint passada, e organizar os dados a serem salvos no banco de dados 
 ### Backlog Sprint 2 📃
 
+<br>
+
+### Burndown Chart 🔥
+<p align="center">
+  <img width="687" height="353" src="https://github.com/user-attachments/assets/058e9f4d-1b5e-469f-8738-47ca8a1510ff">
+</p>
+<br>
+
+### Sprint Retrospective
+
+### O que foi legal?
+- Acredito que tivemos uma boa entrega e que conseguimos ir nos ajudando
+
+
+### O que aprendemos (o que podemos melhorar/sugestões de ideias)?
+- Precisamos estabelecer padrões antes de começarmos colocar a mão na massa, ou seja, precisamos nos planejar melhor
+
+
+### Onde falhamos?
+- Faltou estabalecermos um padrão das telas, falhamos nessa parte do planejamento
+
+
+### Onde acertamos (o que precisa ser repetido)?
+- Acredito que conseguimos nos ajudar bastante e estimamos bem
+
 ## Tecnologias Utilizadas 🖥️
 
 <br>
