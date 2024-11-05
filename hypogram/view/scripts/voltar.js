@@ -1,7 +1,7 @@
 export function voltar() {
-  let tipoRetorno = sessionStorage.getItem("tipoRetorno");
-  sessionStorage.removeItem("tipoRetorno");
-
+  let tipoRetorno = localStorage.getItem("tipoRetorno");
+  localStorage.removeItem("tipoRetorno");
+  localStorage.removeItem("questionario");
   if (tipoRetorno != null) {
     if (tipoRetorno.toUpperCase().trim() == "MODAL") {
       const main = document.querySelector("main");

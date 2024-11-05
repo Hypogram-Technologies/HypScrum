@@ -1,0 +1,38 @@
+@import 'global.css';
+@import 'header.css';
+@import 'footer.css';
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section{
+    position: relative;
+    margin: 5rem;
+}
+
+#img-certificadog {
+    width: 100%; 
+    height: auto;
+  }
+
+.botoes {
+position: absolute;
+top: 75%;
+left: 50%; 
+transform: translate(-50%, -50%); 
+display: flex;
+justify-content: space-around;
+width: 100%; 
+
+}
+
+button{
+    z-index: 2;
+    background-color: var(--footer-bg);
+    color: var(--main-bg);
+    width: 13rem;
+}

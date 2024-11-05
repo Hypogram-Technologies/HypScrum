@@ -1,10 +1,11 @@
 import { voltar } from '../scripts/voltar.js'
+import { enviarQuestionario } from '../scripts/enviarQuestionario.js'
 
 window.voltar = voltar;
+window.enviarQuestionario = enviarQuestionario;
 
 export function createQuestionario() {
   const dadosQuestionario = JSON.parse(localStorage.getItem("questionario"));
-  localStorage.removeItem("questionario");
   const main = document.querySelector("main");
   const section = document.createElement("section");
   section.id = 'secao-questoes'
@@ -15,13 +16,13 @@ export function createQuestionario() {
                 Você está prestes a iniciar o teste sobre o conteúdo do capítulo um. Para ser aprovado é necessário acertar pelo menos 2 questões. Leia atentamente cada pergunta e selecione a resposta que considerar correta. Boa sorte!
             </p>
         </section>
-                <section class="questoes">
+          <section class="questoes">
             <form action="#" method="POST" id="form-questionario"> 
                 <ol class="lista-questoes">
                 </ol>
                 <div class="botoes">
                     <button type="button" id="button-voltar" onclick="voltar()">Voltar</button>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" onclick="enviarQuestionario()">Enviar</button>
                 </div>
             </form>
         </section>
@@ -37,12 +38,12 @@ export function createQuestionario() {
         </li>
         <fieldset class="alternativas">
           <div class="alternativa-verdadeira">
-            <input type="radio" name="alternativa${index}" id="alternativa-verdadeira${index}">
-            <label for="alternativa-verdadeira${index}">verdadeiro</label>
+            <input type="radio" name="alternativa${element.id}" id="alternativa-verdadeira${element.id}">
+            <label for="alternativa-verdadeira${element.id}">verdadeiro</label>
           </div>
           <div class="alternativa-falsa">
-            <input type="radio" name="alternativa${index}" id="alternativa-falsa${index}">
-            <label for="alternativa-falsa${index}">falso</label>
+            <input type="radio" name="alternativa${element.id}" id="alternativa-falsa${element.id}">
+            <label for="alternativa-falsa${element.id}">falso</label>
           </div>
         </fieldset>
       </article>

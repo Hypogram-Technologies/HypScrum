@@ -7,6 +7,8 @@
     <title>Hypogram</title>
     <link rel="stylesheet" href="./styles/logincadastro.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="../view/scripts/abrirTela.js"></script>
+    <script src="../view/scripts/setUsuario.js"></script>
     <!-- <script type="module" src="./scripts/index.js" defer></script> -->
 </head>
 
@@ -25,8 +27,8 @@
             <input type="password" name="password" id="password" placeholder="Senha">
             <input type="password" name="confirmar_senha" id="confirmar_senha" placeholder="Confirmar senha">
             
-            <button>Cadastrar</button>
-            <button>Voltar</button>
+            <button type="button" onclick="setUsuario()">Cadastrar</button>
+            <button type="button" onclick="abrirTela('./login.html')" >Voltar</button>
         </form> 
     </main>
     
