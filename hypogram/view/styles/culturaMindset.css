@@ -65,3 +65,23 @@ li{
     font-size: var(--normal);
     margin: 5rem 0rem ;
 }
+
+@media (width < 1400px) {
+
+    .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    main {
+        text-align: center;
+        width: 100%;
+        padding-top: 5rem;
+    }
+
+    .img{
+        width: 100%;
+        padding: auto;
+        margin: 5%;
+    }
+}

@@ -92,4 +92,11 @@ main > h1{
         width: 100%;
         padding-top: 5rem;
     }
+
+    .imgScrum{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
