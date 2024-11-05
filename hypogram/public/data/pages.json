@@ -1,0 +1,19 @@
+{
+    "aprendaScrum" : "aprendaScrum.html",
+    "ArtefatosScrum" : "ArtefatosScrum.html",
+    "cadastro" : "cadastro.html",
+    "certificado" : "certificado.html",
+    "culturaMindset" : "culturaMindset.html",
+    "eventoScrum" : "eventoScrum.html",
+    "frameworkTrabalho" : "frameworkTrabalho.html",
+    "home" : "index.html",
+    "login" : "login.html",
+    "papeisScrum" : "papeisScrum.html",
+    "precertificado" : "precertificado.html",
+    "principiosValores" : "principiosValores.html",
+    "questionario" : "questionario.html",
+    "questionarioPopup" : "questionarioPopup.html",
+    "selecaoQuestionario" : "selecaoQuestionario.html",
+    "sobre" : "sobre.html",
+    "tecnicasFerramentas" : "tecnicasFerramentas.html"
+}

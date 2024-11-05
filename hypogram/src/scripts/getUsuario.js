@@ -25,6 +25,5 @@ function getUsuario() {
       window.location.href = "./aprendaScrum.html";
     }
   }
-
   localStorage.setItem("login", isusuarioEncontrado);
 }
