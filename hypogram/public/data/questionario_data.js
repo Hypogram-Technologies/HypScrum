@@ -20,7 +20,7 @@ ON UPDATE NO ACTION
 ON DELETE NO ACTION
 ) */
 
-let questionario = [
+export const dadosQuestionario = [
   {
     id: 1,
     titulo: "Cultura e Mindset ágil",
