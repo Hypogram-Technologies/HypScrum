@@ -8,11 +8,6 @@ const port = 3000;
 app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, "../public")));
 
-// app.use("/styles", express.static("public/styles"));
-// app.use("/scripts", express.static("public/scripts"));
-// app.use("/imgs", express.static("public/imgs"));
-// app.use("/components", express.static("public/components"));
-
 app.use(routes);
 
 // app.use(routes);
