@@ -19,7 +19,7 @@
     --medium: 1.8rem;
     --xx-large: 3.5rem;
 
-    --container: 140rem;
+    /* --container: 140rem; */
 }
 
 * {
@@ -50,10 +50,6 @@ button{
 
 main{
     margin-top: 5rem;
-}
-
-i{
-    font-size: 1.5rem;
 }
 
 .questionario{
