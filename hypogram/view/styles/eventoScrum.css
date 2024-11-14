@@ -28,7 +28,7 @@ section > div img{
 
 
 ul li, ol li {
-    font-size: var(--normal);
+    /* font-size: var(--normal); */
     margin: 0; 
     padding: 0.2rem 0; 
     text-align: justify;
@@ -54,7 +54,47 @@ ul li, ol li {
     margin: 0;
 }
 
-p + img{
+p + .img{
     margin: auto;
     width: 65rem;
+}
+
+@media (max-width: 1200px) {
+
+    main {
+        text-align: center;
+        width: 100%;
+        padding-top: 5rem;
+    }
+
+    .containerSprintPlanning{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #sprint-planning{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    #conteudo-sprint-planning{
+        display: flex;
+        max-width: 100%;
+    }
+
+    .imgLateral{
+        width: 100%;
+        justify-content: center;
+        /* margin: 5%; */
+    }
+
+    .img{
+        width: 100%;
+        padding: auto;
+        margin: 5%;
+    }
 }
