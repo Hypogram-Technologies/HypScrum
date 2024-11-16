@@ -49,7 +49,7 @@ section img{
 .text {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 800px;
     font-size: var(--medium);
     text-align: justify;
     gap: 1rem;
@@ -82,7 +82,81 @@ a:nth-child(2) {
     font-weight: bold;
 }
 
-@media (width < 1400px) {
+/* @media (width < 1400px) {
+
+    .container{
+        width: 80%;
+        flex-wrap: wrap;
+        padding-bottom: 5rem;
+    }
+
+    #one, #two, #three{
+        gap: 5rem;
+    }
+
+    #two .text {
+        width: 50%;
+    }
+
+    #two img{
+        width: 50%;
+    }
+
+    #three img{
+        width: 50%;
+    }
+} */
+
+@media(width < 768px){
+    #one .titulo{
+        display: flex;
+        align-self: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px){
+    
+    #one, #two{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+
+    #one .text{
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+    }
+
+    #one img{
+        display: none;
+    }
+
+    #two .text {
+        width: 100%;
+    }
+
+    #three{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    #three .text{
+        display: flex;
+        align-items: center;
+    }
+
+    img{
+        margin-top: 5%;
+        width: 40%;
+    }
+}
+
+@media (min-width: 1001px){
 
     .container{
         width: 80%;
@@ -106,4 +180,3 @@ a:nth-child(2) {
         width: 50%;
     }
 }
-
