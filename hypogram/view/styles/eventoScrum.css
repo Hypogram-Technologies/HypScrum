@@ -71,7 +71,7 @@ p + .img{
         display: flex;
         flex-direction: column;
         max-width: 100%;
-        margin: 0;
+        margin: 5;
     }
 
     #sprint-planning{
@@ -89,7 +89,7 @@ p + .img{
     .imgLateral{
         width: 100%;
         justify-content: center;
-        /* margin: 5%; */
+        margin: 5%;
     }
 
     .img{
