@@ -59,6 +59,10 @@ p + .img{
     width: 65rem;
 }
 
+.img{
+    padding-top: 2%;
+}
+
 @media (max-width: 1200px) {
 
     main {
@@ -94,7 +98,8 @@ p + .img{
 
     .img{
         width: 100%;
-        padding: auto;
+        justify-content: center;
         margin: 5%;
+        padding-top: 3%;
     }
 }
