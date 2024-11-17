@@ -1,0 +1,238 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionário</title>
+    <link rel="stylesheet" href="./styles/questionario.css" />
+    <style>
+      .vue-notification-group {
+        display: block;
+        position: fixed;
+        z-index: 5000;
+      }
+      .vue-notification-wrapper {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .notification-title {
+        font-weight: 600;
+      }
+      .vue-notification-template {
+        display: block;
+        box-sizing: border-box;
+        background: white;
+        text-align: left;
+      }
+      .vue-notification {
+        display: block;
+        box-sizing: border-box;
+        text-align: left;
+        font-size: 12px;
+        padding: 10px;
+        margin: 0 5px 5px;
+        color: #fff;
+        background: #44a4fc;
+        border-left: 5px solid #187fe7;
+      }
+      .vue-notification.warn {
+        background: #ffb648;
+        border-left-color: #f48a06;
+      }
+      .vue-notification.error {
+        background: #e54d42;
+        border-left-color: #b82e24;
+      }
+      .vue-notification.success {
+        background: #68cd86;
+        border-left-color: #42a85f;
+      }
+      .vn-fade-enter-active,
+      .vn-fade-leave-active,
+      .vn-fade-move {
+        transition: all 0.5s;
+      }
+      .vn-fade-enter-from,
+      .vn-fade-leave-to {
+        opacity: 0;
+      }
+    </style>
+    <style>
+      .vue-notification-group {
+        display: block;
+        position: fixed;
+        z-index: 5000;
+      }
+      .vue-notification-wrapper {
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .notification-title {
+        font-weight: 600;
+      }
+      .vue-notification-template {
+        display: block;
+        box-sizing: border-box;
+        background: white;
+        text-align: left;
+      }
+      .vue-notification {
+        display: block;
+        box-sizing: border-box;
+        text-align: left;
+        font-size: 12px;
+        padding: 10px;
+        margin: 0 5px 5px;
+        color: #fff;
+        background: #44a4fc;
+        border-left: 5px solid #187fe7;
+      }
+      .vue-notification.warn {
+        background: #ffb648;
+        border-left-color: #f48a06;
+      }
+      .vue-notification.error {
+        background: #e54d42;
+        border-left-color: #b82e24;
+      }
+      .vue-notification.success {
+        background: #68cd86;
+        border-left-color: #42a85f;
+      }
+      .vn-fade-enter-active,
+      .vn-fade-leave-active,
+      .vn-fade-move {
+        transition: all 0.5s;
+      }
+      .vn-fade-enter-from,
+      .vn-fade-leave-to {
+        opacity: 0;
+      }
+    </style>
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="//fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap"
+    />
+  </head>
+  <body class="vsc-initialized">
+    <main>
+      <section id="secao-questoes">
+        <section class="cabecalho">
+          <h1>Cultura e Mindset ágil</h1>
+          <p>
+            Você está prestes a iniciar o teste sobre o conteúdo do capítulo um.
+            Para ser aprovado é necessário acertar pelo menos 2 questões. Leia
+            atentamente cada pergunta e selecione a resposta que considerar
+            correta. Boa sorte!
+          </p>
+        </section>
+        <section class="questoes">
+          <form action="#" method="POST" id="form-questionario">
+            <ol class="lista-questoes">
+              <article>
+                <li>
+                  O principal foco do Manifesto Ágil é em indivíduos e
+                  interações, software funcionando, colaboração com o cliente e
+                  responder a mudanças.
+                </li>
+                <fieldset class="alternativas">
+                  <div class="alternativa-verdadeira">
+                    <input
+                      type="radio"
+                      name="alternativa1"
+                      id="alternativa-verdadeira1"
+                    />
+                    <label for="alternativa-verdadeira1">verdadeiro</label>
+                  </div>
+                  <div class="alternativa-falsa">
+                    <input
+                      type="radio"
+                      name="alternativa1"
+                      id="alternativa-falsa1"
+                    />
+                    <label for="alternativa-falsa1">falso</label>
+                  </div>
+                </fieldset>
+              </article>
+
+              <article>
+                <li>
+                  O mindset ágil em uma organização é caracterizado pela
+                  manutenção de uma cultura que valoriza a adaptabilidade, a
+                  colaboração e a melhoria contínua.
+                </li>
+                <fieldset class="alternativas">
+                  <div class="alternativa-verdadeira">
+                    <input
+                      type="radio"
+                      name="alternativa2"
+                      id="alternativa-verdadeira2"
+                    />
+                    <label for="alternativa-verdadeira2">verdadeiro</label>
+                  </div>
+                  <div class="alternativa-falsa">
+                    <input
+                      type="radio"
+                      name="alternativa2"
+                      id="alternativa-falsa2"
+                    />
+                    <label for="alternativa-falsa2">falso</label>
+                  </div>
+                </fieldset>
+              </article>
+
+              <article>
+                <li>
+                  O Manifesto Ágil é um documento formal, enquanto o mindset
+                  ágil é uma atitude e cultura que suporta a aplicação desse
+                  manifesto.
+                </li>
+                <fieldset class="alternativas">
+                  <div class="alternativa-verdadeira">
+                    <input
+                      type="radio"
+                      name="alternativa3"
+                      id="alternativa-verdadeira3"
+                    />
+                    <label for="alternativa-verdadeira3">verdadeiro</label>
+                  </div>
+                  <div class="alternativa-falsa">
+                    <input
+                      type="radio"
+                      name="alternativa3"
+                      id="alternativa-falsa3"
+                    />
+                    <label for="alternativa-falsa3">falso</label>
+                  </div>
+                </fieldset>
+              </article>
+            </ol>
+            <div class="botoes">
+              <button type="button" id="button-voltar" onclick="voltar()">
+                Voltar
+              </button>
+              <button type="submit" onclick="enviarQuestionario()">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="./scripts/indexQuestionario.js"></script>
+    <script type="module" src="./scripts/index.js"></script>
+
+    <div id="q64x1jpk88"></div>
+  </body>
+</html>

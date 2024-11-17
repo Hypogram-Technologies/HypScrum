@@ -45,6 +45,10 @@ export function createQuestionario() {
             <input type="radio" name="alternativa${element.id}" id="alternativa-falsa${element.id}">
             <label for="alternativa-falsa${element.id}">falso</label>
           </div>
+          <div class="feedback">
+            <span id="check-icon" class="feedback-icon" style="display: none;">✔</span>
+            <span id="x-icon" class="feedback-icon" style="display: none;">✘</span>
+          </div>
         </fieldset>
       </article>
     `;
