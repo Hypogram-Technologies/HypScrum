@@ -56,7 +56,11 @@ ul li, ol li {
 
 p + .img{
     margin: auto;
-    width: 65rem;
+    width: 100%;
+}
+
+.img{
+    padding-top: 2%;
 }
 
 .img{
