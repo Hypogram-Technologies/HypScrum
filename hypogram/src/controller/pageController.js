@@ -1,3 +1,5 @@
+const path = require("path");
+
 const page = {
   aprendaScrum: "aprendaScrum",
   ArtefatosScrum: "ArtefatosScrum",

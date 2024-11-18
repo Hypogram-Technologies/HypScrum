@@ -17,7 +17,7 @@
 
   <body>
     <main id="Login">
-      <form id="FormLogin" method="POST">
+      <form id="FormLogin" action="/loginUser" method="post">
         <h1>Login</h1>
         <div>
           <input type="email" name="email" id="email" placeholder="E-mail" />
@@ -27,7 +27,7 @@
         <div>
           <input
             type="password"
-            name="password"
+            name="senha"
             id="password"
             placeholder="Senha"
           />
@@ -35,7 +35,7 @@
         </div>
 
         <div><a href="/cadastro">Cadastre-se</a></div>
-        <button type="button" onclick="getUsuario()">Login</button>
+        <button type="submit">Login</button>
         <button id="botaoVoltar" type="button">Voltar</button>
       </form>
     </main>

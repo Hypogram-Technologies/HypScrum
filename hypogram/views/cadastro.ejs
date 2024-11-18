@@ -16,7 +16,7 @@
 
   <body>
     <main id="Cadastro">
-      <form id="FormCadastro" method="POST">
+      <form id="FormCadastro" action="/criarUsuario" method="post">
         <h1>Cadastro</h1>
         <div>
           <input type="text" name="nome" id="name" placeholder="Nome" />
@@ -26,12 +26,7 @@
           <input type="email" name="email" id="email" placeholder="E-mail" />
           <i class="fas fa-envelope"></i>
         </div>
-        <input
-          type="password"
-          name="password"
-          id="password"
-          placeholder="Senha"
-        />
+        <input type="password" name="senha" id="password" placeholder="Senha" />
         <input
           type="password"
           name="confirmar_senha"
@@ -39,7 +34,7 @@
           placeholder="Confirmar senha"
         />
 
-        <button type="button" onclick="setUsuario()">Cadastrar</button>
+        <button type="submit" onclick="setUsuario()">Cadastrar</button>
         <button type="button" onclick="abrirTela('/login')">Voltar</button>
       </form>
     </main>
