@@ -56,7 +56,11 @@ ul li, ol li {
 
 p + .img{
     margin: auto;
-    width: 65rem;
+    width: 100%;
+}
+
+.img{
+    padding-top: 2%;
 }
 
 @media (max-width: 1200px) {
@@ -94,7 +98,8 @@ p + .img{
 
     .img{
         width: 100%;
-        padding: auto;
+        justify-content: center;
         margin: 5%;
+        padding-top: 3%;
     }
 }
