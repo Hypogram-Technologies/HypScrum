@@ -2,37 +2,64 @@
 @import 'header.css';
 @import 'footer.css';
 
-main{
+main {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
-section{
+section {
     position: relative;
     margin: 5rem;
 }
 
-#img-certificadog {
-    width: 100%; 
-    height: auto;
-  }
+@media (max-width: 768px) {
+    section {
+        margin: 2rem;
+    }
 
-.botoes {
-position: absolute;
-top: 75%;
-left: 50%; 
-transform: translate(-50%, -50%); 
-display: flex;
-justify-content: space-around;
-width: 100%; 
-
+    main {
+        height: auto;
+        padding: 2rem;
+    }
 }
 
-button{
+#img-certificado {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.botoes {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button {
     z-index: 2;
     background-color: var(--footer-bg);
     color: var(--main-bg);
     width: 13rem;
+}
+
+@media (max-width: 480px) {
+    .botoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        top: 80%;
+    }
+
+    button {
+        width: 50%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
 }
