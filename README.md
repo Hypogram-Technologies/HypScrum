@@ -287,6 +287,12 @@ O foco da Sprint 2 foi desenvolver o prototipo gerado na sprint passada, e organ
 - **Prototipação:**
   - `figma/` - Arquivos de prototipação no Figma.
 
+### Documentação 📂
+- **Caso de uso:**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a036ef8b-fbef-408f-a4e4-fff24755d021" alt="Casos de Uso" width="687" height="353">
+</p>
+
 ### Configuração do Projeto
 
 ### Pré-requisitos
