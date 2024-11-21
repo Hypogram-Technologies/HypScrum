@@ -70,6 +70,11 @@ fieldset{
     justify-content: space-between;
 }
 
+
+.botoes.centralizado{
+    justify-content: center;
+  }
+
 button{
     background-color: var(--footer-bg);
     color: var(--main-bg);
@@ -77,6 +82,56 @@ button{
 
 button:hover{
     cursor:pointer;
+}
+
+.feedback-icon {
+    font-size: 2em;
+    margin-left: 10px;
+    display: inline-block;
+    transition: opacity 0.3s;
+  }
+  
+#check-icon {
+    color: green;
+}
+  
+#x-icon {
+    color: red;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    opacity: 1;
+    transition: opacity 1s ease-out; 
+}
+  
+.modal.fade-out {
+    opacity: 0; 
+}
+
+.modal-content {
+    color: var(--main-bg);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.modal-content.aprovado {
+    background-color: #06734B;
+}
+  
+
+.modal-content.reprovado {
+    background-color: #964E55;
 }
 
 

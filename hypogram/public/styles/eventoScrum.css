@@ -63,10 +63,6 @@ p + .img{
     padding-top: 2%;
 }
 
-.img{
-    padding-top: 2%;
-}
-
 @media (max-width: 1200px) {
 
     main {

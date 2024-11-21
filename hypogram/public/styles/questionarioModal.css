@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: flex-start; 
     position: fixed;
-    z-index: 1000;
+    z-index: 15;
     left: 25vw;
     top: 52vh;
     transform: translateY(-50%);
