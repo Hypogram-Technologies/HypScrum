@@ -1,60 +1,13 @@
-@import "global.css";
 @import "header.css";
 @import "footer.css";
 @import "questionarioModal.css";
+@import "global.css";
+@import "hypogram.css";
 
-.container{
-    display: flex;
-    flex-direction: column;
-    font-size: 25px;
-    background-color: #DEE2E6;
-    color: #343A40;
-    padding: 20px;
+section div{
+    margin: auto;
 }
 
-.conteudo{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: justify;
-    font-size: 15px;
-    line-height: 1.5em;
-    margin-left: 80px;
-    margin-right: 70px;
-}
-
-article{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
-}
-
-p{
-    display: flex;
-    align-items: flex-start;
-    text-align: justify;
-    margin-bottom: 15px;
-}
-
-section{
-    display: flex;
+section > div img{
     align-self: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.img{
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    margin: 20px;
-}
-
-.next-previous{
-    width: 100%;
-    display: flex;    
-    justify-content: space-between;
-    font-size: var(--normal);
-    margin: 5rem 0rem ;
 }
