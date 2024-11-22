@@ -54,6 +54,13 @@ const loginUser = async (req, res) => {
         erro: "E-mail ou senha incorretos.",
       });
     }
+
+    req.session.usuarioLogado = usuario; //Salvando os dados do usuário logado na sessão
+
+    console.log(req.session.usuarioLogado)
+
+    console.log("Login realizado com sucesso.");
+
     /* localStorage.setItem("usuarioLogado", JSON.stringify(usuario)); */
     return res.render("aprendaScrum", {
       mensagem: "Login realizado com sucesso.",

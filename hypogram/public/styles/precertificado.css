@@ -25,7 +25,9 @@ section {
     }
 }
 
-#img-certificado {
+
+#img-certificadog {
+
     width: 100%;
     height: auto;
     max-width: 800px;
@@ -51,6 +53,12 @@ button {
 
 @media (max-width: 480px) {
     .botoes {
+        flex-direction: column;
+        top: 85%;
+    }
+
+    button {
+        width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
