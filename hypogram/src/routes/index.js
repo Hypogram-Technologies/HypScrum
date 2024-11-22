@@ -6,6 +6,13 @@ const questionarioController = require("../controller/questionarioController");
 
 router.get("/:page", pageController.renderPage);
 
+const autenticarUsuario = (req, res, next) => {
+  if (!req.session.usuarioLogado) {
+    return res.redirect("/login"); // Redireciona para a página de login
+  }
+  next();
+};
+
 router.get("/api/sessao", (req, res) => {
   if (req.session.usuarioLogado) {
     return res.json({ logado: true, usuario: req.session.usuarioLogado });
@@ -33,10 +40,11 @@ router.get(
   questionarioController.listaritensquestionario
 );
 
-// router.post(
-//   "/questionario/:id/enviar",
-//   questionarioController.processarRespostas
-// );
+router.post(
+  "/questionario/:id/enviar",
+  autenticarUsuario,
+  questionarioController.salvarRespostas
+);
 
 // router.get("/certificado", questionarioController.gerarCertificado);
 

@@ -16,7 +16,7 @@ app.use(
   expressSession({
     secret: "bbdcd940-927e-4784-adec-ae1bc9055616",
     resave: false,
-    saveUninitialized: true,
+    saveUninitialized: false,
     cookie: { secure: false },
   })
 );
