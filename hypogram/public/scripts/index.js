@@ -2,7 +2,6 @@ import { createHeader } from "/components/header.js";
 import { createFooter } from "/components/footer.js";
 
 document.addEventListener("DOMContentLoaded", async () => {
-  console.log("DOMContentLoaded - Assíncrono")
   createHeader();
   createFooter();
   const sessao =  await verificarSessao();
@@ -27,15 +26,16 @@ function setupEntrarSair(login) {
   const entrarSair = document.querySelector("#entrarSair");
 
   if (entrarSair) {
-    localStorage.setItem("paginaAnterior", window.location.href);
+    /* localStorage.setItem("paginaAnterior", window.location.href); */
+    console.log(window.location.href)
     entrarSair.addEventListener("click", () => {
       const paginaAnterior = localStorage.getItem("paginaAnterior");
       if (!login) {
         window.location.href = "/login";
       } else {
-        localStorage.removeItem("login");
-        /* window.history.back(); */
-        window.location.href = paginaAnterior;
+        fetch("/api/logout", { method: "POST" }).then(() => {
+          window.location.href = "/aprendaScrum";
+        });
       }
     });
   }
@@ -46,15 +46,14 @@ function setupEntrarSairMobile(login) {
   const entrarSair = document.querySelector("#entrarSairMobile");
 
   if (entrarSair) {
-    localStorage.setItem("paginaAnterior", window.location.href);
+    /* localStorage.setItem("paginaAnterior", window.location.href); */
     entrarSair.addEventListener("click", () => {
       const paginaAnterior = localStorage.getItem("paginaAnterior");
       if (!login) {
         window.location.href = "/login";
       } else {
-        localStorage.removeItem("login");
         fetch("/api/logout", { method: "POST" }).then(() => {
-          window.location.href = paginaAnterior;
+          window.location.href = "/aprendaScrum";
         });
       }
     });

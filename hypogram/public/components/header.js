@@ -63,6 +63,9 @@ export async function createHeader() {
   } else {
     let entrarSair = header.querySelector("#entrarSair");
     entrarSair.innerHTML = "Sair";
+
+    let entrarSairMobile = header.querySelector("#entrarSairMobile");
+    entrarSairMobile.innerHTML = "Sair";
   }
 
   const main = document.querySelector("main");
