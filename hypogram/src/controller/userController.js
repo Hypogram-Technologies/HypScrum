@@ -29,9 +29,6 @@ const criarUsuario = async (req, res) => {
 
 const loginUser = async (req, res) => {
   const { email, senha } = req.body;
-  console.log("Tentando fazer login com email:", email); // Log de entrada do email
-  console.log("Senha digitada:", senha); // Log de entrada da senha
-
   try {
     // Buscar o usuário pelo e-mail no banco
     const usuario = await userModel.buscarUsuarioPorEmail(email);
@@ -42,15 +39,13 @@ const loginUser = async (req, res) => {
       return res.render("login", { erro: "Usuário não encontrado." });
     }
 
-    console.log("Hash da senha armazenada:", usuario.usuariosenha);
-
     // Verifica se a senha está correta
     const isPasswordCorrect = await bcrypt.compare(senha, usuario.usuariosenha);
- 
+
     if (!isPasswordCorrect) {
       console.log("Senha incorreta.");
       // Envia uma mensagem de erro para a página de login
-     return res.render("login", {
+      return res.render("login", {
         erro: "E-mail ou senha incorretos.",
       });
     }
@@ -59,7 +54,6 @@ const loginUser = async (req, res) => {
 
     console.log("Login realizado com sucesso.");
 
-    /* localStorage.setItem("usuarioLogado", JSON.stringify(usuario)); */
     return res.render("aprendaScrum", {
       mensagem: "Login realizado com sucesso.",
     });

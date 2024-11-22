@@ -14,10 +14,10 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use(
   expressSession({
-    secret: "bbdcd940-927e-4784-adec-ae1bc9055616", 
-    resave: false, 
-    saveUninitialized: true, 
-    cookie: { secure: false } 
+    secret: "bbdcd940-927e-4784-adec-ae1bc9055616",
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: false },
   })
 );
 
