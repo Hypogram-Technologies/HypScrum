@@ -46,18 +46,16 @@ const loginUser = async (req, res) => {
 
     // Verifica se a senha está correta
     const isPasswordCorrect = await bcrypt.compare(senha, usuario.usuariosenha);
-
+ 
     if (!isPasswordCorrect) {
       console.log("Senha incorreta.");
       // Envia uma mensagem de erro para a página de login
-      return res.render("login", {
+     return res.render("login", {
         erro: "E-mail ou senha incorretos.",
       });
     }
 
     req.session.usuarioLogado = usuario; //Salvando os dados do usuário logado na sessão
-
-    console.log(req.session.usuarioLogado)
 
     console.log("Login realizado com sucesso.");
 

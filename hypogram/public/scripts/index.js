@@ -1,14 +1,26 @@
 import { createHeader } from "/components/header.js";
 import { createFooter } from "/components/footer.js";
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
+  console.log("DOMContentLoaded - Assíncrono")
   createHeader();
   createFooter();
-  const login = localStorage.getItem("login");
+  const sessao =  await verificarSessao();
+  const login = sessao.logado;
   setupEntrarSair(login);
   setupQuestionario(login);
   setupCadastro(login);
 });
+
+async function verificarSessao() {
+  try {
+    const response = await fetch("/api/sessao");
+    return await response.json();
+  } catch (error) {
+    console.error("Erro ao verificar sessão:", error);
+    return { logado: false };
+  }
+}
 
 function setupEntrarSair(login) {
   const entrarSair = document.querySelector("#entrarSair");
@@ -20,8 +32,9 @@ function setupEntrarSair(login) {
         window.location.href = "/login";
       } else {
         localStorage.removeItem("login");
-        /* window.history.back(); */
-        window.location.href = paginaAnterior;
+        fetch("/api/logout", { method: "POST" }).then(() => {
+          window.location.href = paginaAnterior;
+        });
       }
     });
   }
