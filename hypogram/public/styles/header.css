@@ -1,3 +1,5 @@
+@import 'headermobile.css';
+
 header{
     width: 100%;
     min-height: 7.2rem;
@@ -64,3 +66,30 @@ header #botoes{
     }
 }
 
+@media (max-width < 768px){
+    .header-container{
+    
+        font-size: var(--small);
+        padding: 1rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .header-container{
+    
+        font-size: var(--small);
+        padding: 1rem;
+    }
+    
+    header button{
+        border-color: transparent;
+      
+    }
+    
+    header #botoes{
+        width: 100%;
+    }
+
+}
