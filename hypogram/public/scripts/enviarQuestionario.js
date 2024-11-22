@@ -1,72 +1,78 @@
-import { voltar } from "/scripts/voltar.js";
+// src/public/js/enviarQuestionario.js
 
-export function enviarQuestionario() {
-  const dadosQuestionario = JSON.parse(localStorage.getItem("questionario"));
-  const questoes = dadosQuestionario.questoes;
-  const form = document.querySelector("#form-questionario");
-  const ol = form.querySelector("ol");
-  const checkIcons = document.querySelectorAll("#check-icon");
-  const xIcons = document.querySelectorAll("#x-icon");
-  const modal = document.querySelector("#modal-resultado");
-  const modalContent = modal.querySelector(".modal-content");
-  const modalTitulo = document.querySelector("#resultado-titulo");
-  const modalMensagem = document.querySelector("#resultado-mensagem");
-  const botoes = document.querySelector(".botoes");
-  const botaoEnviar = document.querySelector("#button-enviar");
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    let pontuacao = 0;
-    let totalQuestoes = questoes.length;
-    questoes.forEach((validador, index) => {
-      const respostaUsuario = ol.querySelector(
-        `input[name="alternativa${validador.id}"]:checked`
-      );
-      if (respostaUsuario) {
-        const respostaUsuarioValor = respostaUsuario.id.includes("verdadeira");
-        const respostaCorreta = validador.respostaCorreta;
-        checkIcons[index].style.display = "inline";
-        xIcons[index].style.display = "none";
+document.addEventListener("DOMContentLoaded", function () {
+  // Evento de envio do formulário
+  document
+    .getElementById("form-questionario")
+    .addEventListener("submit", async (event) => {
+      event.preventDefault();
 
-        if (respostaUsuarioValor === respostaCorreta) {
-          pontuacao++;
-        } else {
-          checkIcons[index].style.display = "none";
-          xIcons[index].style.display = "inline";
-        }
+      const respostasUsuario = {};
+      const formData = new FormData(event.target);
+
+      formData.forEach((value, key) => {
+        respostasUsuario[key] = value;
+      });
+
+      const questionarioId = document.getElementById("questionarioId").value;
+
+      try {
+        const response = await fetch(`/questionario/${questionarioId}/enviar`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(respostasUsuario),
+        });
+
+        const data = await response.json();
+
+        // Exibe o resultado do questionário
+        exibirModalResultado(data.aprovado);
+      } catch (error) {
+        console.error("Erro ao enviar respostas:", error);
       }
     });
+});
 
-    const aprovado = pontuacao >= 2;
+// Função para exibir o modal de resultado
+function exibirModalResultado(aprovado) {
+  const modal = document.getElementById("modal-resultado");
+  const modalTitulo = document.getElementById("resultado-titulo");
+  const modalMensagem = document.getElementById("resultado-mensagem");
+  const modalContent = document.querySelector(".modal-content");
+  const botaoEnviar = document.getElementById("button-enviar");
+  const botoes = document.querySelector(".botoes");
 
-    if (aprovado) {
-      modalTitulo.textContent = "Aprovado!";
-      modalMensagem.textContent =
-        "Parabéns, você foi aprovado no questionário!";
-      modalContent.classList.remove("reprovado");
-      modalContent.classList.add("aprovado");
-      botaoEnviar.style.display = "none";
-      botoes.classList.add("centralizado");
-    } else {
-      modalTitulo.textContent = "Reprovado!";
-      modalMensagem.textContent =
-        "Infelizmente, você não foi aprovado. Tente novamente!";
-      modalContent.classList.remove("aprovado");
-      modalContent.classList.add("reprovado");
-      botaoEnviar.style.display = "inline-block";
-      botoes.classList.remove("centralizado");
-    }
+  if (aprovado) {
+    modalTitulo.textContent = "Aprovado!";
+    modalMensagem.textContent = "Parabéns, você foi aprovado no questionário!";
+    modalContent.classList.remove("reprovado");
+    modalContent.classList.add("aprovado");
+    botaoEnviar.style.display = "none";
+    botoes.classList.add("centralizado");
+  } else {
+    modalTitulo.textContent = "Reprovado!";
+    modalMensagem.textContent =
+      "Infelizmente, você não foi aprovado. Tente novamente!";
+    modalContent.classList.remove("aprovado");
+    modalContent.classList.add("reprovado");
+    botaoEnviar.style.display = "inline-block";
+    botoes.classList.remove("centralizado");
+  }
 
-    modal.style.display = "flex";
+  modal.style.display = "flex";
 
-    setTimeout(() => {
-      modal.classList.add("fade-out");
-    }, 3000);
+  setTimeout(() => {
+    modal.classList.add("fade-out");
+  }, 3000);
 
-    setTimeout(() => {
-      modal.style.display = "none";
-      modal.classList.remove("fade-out");
-    }, 4000);
+  setTimeout(() => {
+    modal.style.display = "none";
+    modal.classList.remove("fade-out");
+  }, 4000);
+}
 
-    //Realizar inserção no banco
-  });
+function voltar() {
+  window.location.href = "/selecaoQuestionarios";
 }

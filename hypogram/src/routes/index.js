@@ -4,7 +4,14 @@ const pageController = require("../controller/pageController");
 const userController = require("../controller/userController");
 const questionarioController = require("../controller/questionarioController");
 
-router.get("/:page", pageController.renderPage);
+// router.get("/:page", pageController.renderPage);
+
+const autenticarUsuario = (req, res, next) => {
+  if (!req.session.usuarioLogado) {
+    return res.redirect("/login"); // Redireciona para a página de login
+  }
+  next();
+};
 
 router.get("/api/sessao", (req, res) => {
   if (req.session.usuarioLogado) {
@@ -33,10 +40,77 @@ router.get(
   questionarioController.listaritensquestionario
 );
 
-// router.post(
-//   "/questionario/:id/enviar",
-//   questionarioController.processarRespostas
-// );
+router.post(
+  "/questionario/:id/enviar",
+  autenticarUsuario,
+  questionarioController.salvarRespostas
+);
+
+router.get("/selecaoQuestionario", questionarioController.renderQuestionarios);
+
+router.get("/aprendaScrum", (req, res) => {
+  res.render("aprendaScrum"); // Renderiza a página 'aprendaScrum.ejs'
+});
+
+router.get("/ArtefatosScrum", (req, res) => {
+  res.render("ArtefatosScrum"); // Renderiza a página 'ArtefatosScrum.ejs'
+});
+
+router.get("/cadastro", (req, res) => {
+  res.render("cadastro"); // Renderiza a página 'cadastro.ejs'
+});
+
+router.get("/certificado", (req, res) => {
+  res.render("certificado"); // Renderiza a página 'certificado.ejs'
+});
+
+router.get("/culturaMindset", (req, res) => {
+  res.render("culturaMindset"); // Renderiza a página 'culturaMindset.ejs'
+});
+
+router.get("/eventoScrum", (req, res) => {
+  res.render("eventoScrum"); // Renderiza a página 'eventoScrum.ejs'
+});
+
+router.get("/frameworkTrabalho", (req, res) => {
+  res.render("frameworkTrabalho"); // Renderiza a página 'frameworkTrabalho.ejs'
+});
+
+router.get("/home", (req, res) => {
+  res.render("index"); // Renderiza a página 'index.ejs'
+});
+
+router.get("/login", (req, res) => {
+  res.render("login"); // Renderiza a página 'login.ejs'
+});
+
+router.get("/papeisScrum", (req, res) => {
+  res.render("papeisScrum"); // Renderiza a página 'papeisScrum.ejs'
+});
+
+router.get("/preCertificado", (req, res) => {
+  res.render("precertificado"); // Renderiza a página 'precertificado.ejs'
+});
+
+router.get("/principiosValores", (req, res) => {
+  res.render("principiosValores"); // Renderiza a página 'principiosValores.ejs'
+});
+
+router.get("/questionario", (req, res) => {
+  res.render("questionario"); // Renderiza a página 'questionario.ejs'
+});
+
+router.get("/questionarioPopup", (req, res) => {
+  res.render("questionarioPopup"); // Renderiza a página 'questionarioPopup.ejs'
+});
+
+router.get("/sobre", (req, res) => {
+  res.render("sobre"); // Renderiza a página 'sobre.ejs'
+});
+
+router.get("/tecnicasFerramentas", (req, res) => {
+  res.render("tecnicasFerramentas"); // Renderiza a página 'tecnicasFerramentas.ejs'
+});
 
 // router.get("/certificado", questionarioController.gerarCertificado);
 
