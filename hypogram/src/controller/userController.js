@@ -65,7 +65,17 @@ const loginUser = async (req, res) => {
   }
 };
 
+const mostrarCertificado = (req, res) => {
+  if (req.session.usuarioLogado) {
+    const usuarioNome = req.session.usuarioLogado.usuarionome; // Nome do usuário da sessão
+    res.render("certificado", { nomeAluno: usuarioNome }); // Envia o nome para o EJS
+  } else {
+    res.redirect("/login"); // Caso o usuário não esteja logado, redireciona para a página de login
+  }
+};
+
 module.exports = {
+  mostrarCertificado,
   criarUsuario,
   buscarUsuarioPorId,
   loginUser,

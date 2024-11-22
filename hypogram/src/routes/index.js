@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const pageController = require("../controller/pageController");
 const userController = require("../controller/userController");
+const certificadoController = require("../controller/certificadoController");
 const questionarioController = require("../controller/questionarioController");
 
 // router.get("/:page", pageController.renderPage);
@@ -60,9 +60,7 @@ router.get("/cadastro", (req, res) => {
   res.render("cadastro"); // Renderiza a página 'cadastro.ejs'
 });
 
-router.get("/certificado", (req, res) => {
-  res.render("certificado"); // Renderiza a página 'certificado.ejs'
-});
+router.get("/certificado", userController.mostrarCertificado);
 
 router.get("/culturaMindset", (req, res) => {
   res.render("culturaMindset"); // Renderiza a página 'culturaMindset.ejs'
