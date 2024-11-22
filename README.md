@@ -237,7 +237,7 @@ O foco da Sprint 2 foi desenvolver o prototipo gerado na sprint passada, e organ
 
 ### Burndown Chart 🔥
 <p align="center">
-  <img width="687" height="353" src="https://github.com/user-attachments/assets/62407d9f-6b41-4afc-b31f-e6b465cccff3">
+  <img width="687" height="353" src="">
 </p>
 <br>
 
@@ -269,9 +269,10 @@ O foco da Sprint 3 foi aprimorar a responsividade do front-end e desenvolver o b
 
 ### Burndown Chart 🔥
 <p align="center">
-  <img width="687" height="353" src="https://github.com/user-attachments/assets/62407d9f-6b41-4afc-b31f-e6b465cccff3">
+  <img width="687" height="353" src="https://github.com/user-attachments/assets/a34baf0f-da38-4f79-a42c-35ed54cde614">
 </p>
 <br>
+
 
 ### Sprint Retrospective
 
