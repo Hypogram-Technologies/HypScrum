@@ -1,11 +1,37 @@
 const pool = require("../database/pgslq");
 
-const listarQuestionarios = async (req, res) => {
+const listarQuestionarios = async (usuarioId) => {
   try {
-    const query = `SELECT * FROM questionario ORDER BY questionarioordem`;
-    const result = await pool.query(query);
+    console.log("ID do Usuário:", usuarioId);
 
-    return result.rows;
+    const query = `
+      SELECT
+        q.questionarioid, 
+        q.questionarioordem, 
+        uq.usuarioquestionarioestagio
+      FROM 
+        questionario q
+      LEFT JOIN 
+        usuarioquestionario uq ON q.questionarioid = uq.questionarioid 
+      WHERE 
+        uq.usuarioid = $1
+      ORDER BY 
+        q.questionarioordem;
+    `;
+    const result = await pool.query(query, [usuarioId]);
+
+    console.log("Dados retornados do banco:", result.rows);
+
+    const capitulosAprovados = result.rows
+      .filter((row) => row.usuarioquestionarioestagio === "Aprovado") // Comparando com a string 'Aprovado'
+      .map((row) => row.questionarioid);
+
+    console.log("Capítulos Aprovados:", capitulosAprovados);
+
+    return {
+      questionarios: result.rows,
+      capitulosAprovados: capitulosAprovados,
+    };
   } catch (err) {
     console.error(err);
     throw new Error("Erro ao buscar os questionários no banco de dados.");

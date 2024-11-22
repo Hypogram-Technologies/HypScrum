@@ -7,8 +7,21 @@ const pool = require("../database/pgslq");
 
 const renderQuestionarios = async (req, res) => {
   try {
-    const questionarios = await listarQuestionarios();
-    res.render("selecaoQuestionarios", { questionarios });
+    if (!req.session.usuarioLogado) {
+      return res.redirect("/login");
+    }
+
+    const usuarioId = req.session.usuarioLogado.usuarioid; // Pegue o ID do usuário logado
+    const questionarios = await listarQuestionarios(usuarioId); // Passe o ID do usuário para o modelo
+
+    const questionariosAprovados = questionarios.questionarios.filter((q) =>
+      questionarios.capitulosAprovados.includes(q.questionarioid)
+    );
+
+    res.render("selecaoQuestionario", {
+      questionarios: questionariosAprovados, // Passa apenas os questionários aprovados
+      capitulosAprovados: questionarios.capitulosAprovados,
+    });
   } catch (err) {
     console.error("Erro ao renderizar questionários:", err.message);
     res.status(500).send("Erro ao carregar a página de questionários.");
@@ -27,7 +40,6 @@ const listaritensquestionario = async (req, res) => {
     }
 
     req.session.questionario = questionario;
-    console.log("Questionário:", questionario);
 
     res.render("questionario", { dadosQuestionario: questionario });
   } catch (err) {

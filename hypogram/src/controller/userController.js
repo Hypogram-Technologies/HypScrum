@@ -50,7 +50,8 @@ const loginUser = async (req, res) => {
       });
     }
 
-    req.session.usuarioLogado = usuario; //Salvando os dados do usuário logado na sessão
+    req.session.usuarioLogado = usuario;
+    console.log("Dados usuario", req.session.usuarioLogado); //Salvando os dados do usuário logado na sessão
 
     console.log("Login realizado com sucesso.");
 
