@@ -16,7 +16,7 @@ export function createHeader() {
                       <li><button class="show" onclick="abrirTela('/precertificado')">Certificado</button></li>
                   </ul>
   
-                    <button id="entrarSair" class="entrarsairmobile">Entrar</button>
+                    <button id="entrarSairMobile" class="entrarsairmobile">Entrar</button>
               </div>
             </div>
 
