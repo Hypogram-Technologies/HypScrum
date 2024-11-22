@@ -258,6 +258,38 @@ O foco da Sprint 2 foi desenvolver o prototipo gerado na sprint passada, e organ
 ### Onde acertamos (o que precisa ser repetido)?
 - Acredito que conseguimos nos ajudar bastante e estimamos bem
 
+<br>
+
+
+## Sprint 3📈🏃🏻
+O foco da Sprint 3 foi aprimorar a responsividade do front-end e desenvolver o back-end
+
+
+<br>
+
+### Burndown Chart 🔥
+<p align="center">
+  <img width="687" height="353" src="https://github.com/user-attachments/assets/62407d9f-6b41-4afc-b31f-e6b465cccff3">
+</p>
+<br>
+
+### Sprint Retrospective
+
+### O que foi legal?
+- O trabalho em equipe foi ótimo, com boa comunicação e colaboração entre os membros, tornando o ambiente produtivo e leve.
+
+
+### O que aprendemos (o que podemos melhorar/sugestões de ideias)?
+- Precisamos melhorar a integração entre frontend e backend desde o início e revisar o código sempre que houver melhorias, além de melhorar a divisão de tarefas e prazos.
+
+
+### Onde falhamos?
+- Faltou detalhar melhor a integração entre frontend e backend, o que levou a refatorações. A divisão de atividades e inspeção do código também poderiam ter sido mais eficientes.
+
+
+### Onde acertamos (o que precisa ser repetido)?
+- A colaboração e comunicação no time foram positivas e devem ser mantidas. A boa divisão de tarefas e a ajuda mútua ajudaram a manter o fluxo de trabalho.
+
 ## Tecnologias Utilizadas 🖥️
 
 <br>
