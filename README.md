@@ -237,7 +237,7 @@ O foco da Sprint 2 foi desenvolver o prototipo gerado na sprint passada, e organ
 
 ### Burndown Chart 🔥
 <p align="center">
-  <img width="687" height="353" src="">
+  <img width="687" height="353" src="https://github.com/user-attachments/assets/62407d9f-6b41-4afc-b31f-e6b465cccff3">
 </p>
 <br>
 
